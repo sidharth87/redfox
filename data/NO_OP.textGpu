@@ -1,0 +1,61 @@
+graphName: "TPC-H/NO_OP.lbb"
+variables {
+  varName: "A"
+  fields {
+    kind: PRIMITIVE
+    primitive {
+      kind: INT
+      capacity: 32
+    }
+  }
+  fields {
+    kind: PRIMITIVE
+    primitive {
+      kind: INT
+      capacity: 32
+    }
+  }
+  initialData: ""
+}
+variables {
+  varName: "B"
+  fields {
+    kind: PRIMITIVE
+    primitive {
+      kind: INT
+      capacity: 32
+    }
+  }
+  fields {
+    kind: PRIMITIVE
+    primitive {
+      kind: INT
+      capacity: 32
+    }
+  }
+  initialData: ""
+}
+sequences {
+  uniqueIdentifier: 0
+  operators {
+    tag: MOVE
+    move {
+      dest: "B"
+      src1: "A"
+    }
+  }
+  operators {
+    tag: GOTO
+    jump {
+      target: 1
+    }
+  }
+}
+sequences {
+  uniqueIdentifier: 1
+  operators {
+    tag: HALT
+  }
+}
+entry: 0
+exit: 1

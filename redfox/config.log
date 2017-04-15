@@ -36,8 +36,10 @@ PATH: /usr/games
 PATH: /opt/kde3/bin
 PATH: /usr/lib/mit/bin
 PATH: /usr/lib/mit/sbin
+PATH: /home/collab/sidharth/research/mpich-install/bin
 PATH: /usr/local/cuda-7.5/bin
-PATH: /home/collab/sidharth/TC/protobuf241/protobuf-2.4.1/build/bin/
+PATH: /home/collab/sidharth/TC/scons/scons-2.5.0/install/bin
+PATH: /home/collab/sidharth/TC/Ocelot/gpuocelot/ocelot/install/bin
 
 
 ## ----------- ##
@@ -608,7 +610,7 @@ configure:4737: gcc -o conftest -g -O2   conftest.c -L/home/collab/sidharth/TC/p
 conftest.c:50:6: warning: conflicting types for built-in function 'floor' [enabled by default]
  char floor ();
       ^
-/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: /tmp/cclWTHdu.o: undefined reference to symbol 'floor@@GLIBC_2.2.5'
+/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: /tmp/cc0O6cL2.o: undefined reference to symbol 'floor@@GLIBC_2.2.5'
 /lib64/libm.so.6: error adding symbols: DSO missing from command line
 collect2: error: ld returned 1 exit status
 configure:4737: $? = 1
@@ -690,7 +692,7 @@ configure:4737: gcc -o conftest -g -O2   conftest.c -L/home/collab/sidharth/TC/p
 conftest.c:51:6: warning: conflicting types for built-in function 'pow' [enabled by default]
  char pow ();
       ^
-/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: /tmp/ccMvkHWL.o: undefined reference to symbol 'pow@@GLIBC_2.2.5'
+/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: /tmp/ccc2GE4R.o: undefined reference to symbol 'pow@@GLIBC_2.2.5'
 /lib64/libm.so.6: error adding symbols: DSO missing from command line
 collect2: error: ld returned 1 exit status
 configure:4737: $? = 1
@@ -770,7 +772,7 @@ configure:4737: gcc -o conftest -g -O2   conftest.c -L/home/collab/sidharth/TC/p
 conftest.c:52:6: warning: conflicting types for built-in function 'sqrt' [enabled by default]
  char sqrt ();
       ^
-/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: /tmp/ccyBVtCV.o: undefined reference to symbol 'sqrt@@GLIBC_2.2.5'
+/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: /tmp/ccfxEn5T.o: undefined reference to symbol 'sqrt@@GLIBC_2.2.5'
 /lib64/libm.so.6: error adding symbols: DSO missing from command line
 collect2: error: ld returned 1 exit status
 configure:4737: $? = 1
@@ -863,6 +865,7 @@ on beast
 
 config.status:867: creating Makefile
 config.status:867: creating configure.h
+config.status:1048: configure.h is unchanged
 config.status:1096: executing depfiles commands
 
 ## ---------------- ##
@@ -1021,7 +1024,7 @@ host_alias=''
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/collab/sidharth/TC/nredfox/redfox/redfox/install-sh'
+install_sh='${SHELL} /home/collab/sidharth/TC/nredfox/GIT/redfox/install-sh'
 libdir='${exec_prefix}/lib64'
 libexecdir='${exec_prefix}/lib'
 localedir='${datarootdir}/locale'
