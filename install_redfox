@@ -1,0 +1,15 @@
+Steps to build redfox from the git repo:
+
+acloal
+autoconf
+automake
+
+stupid hack 1: for some reason my libprotobuf goes undetected in the previous steps, even though i have it in my ld path. I go around this issue by changing changing line 4097 and 4126 to LIBS="-L/home/collab/sidharth/TC/protobuf241/protobuf-2.4.1/build/lib64/ -lprotobuf  $LIBS"
+basically add the absolute path for libprotobuffer.
+I am sure there is a better way to do this but for now this works
+
+./configure
+
+stupid hack 2: for similar reasons as before, I have to add the include path for protobuf in the makefile. I edited line 180 of the makefile to DEFAULT_INCLUDES = -I/home/collab/sidharth/TC/protobuf241/protobuf-2.4.1/build/include/ -I.
+
+make
