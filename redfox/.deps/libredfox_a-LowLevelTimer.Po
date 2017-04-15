@@ -1,0 +1,52 @@
+libredfox_a-LowLevelTimer.o: hydrazine/implementation/LowLevelTimer.cpp \
+ /usr/include/stdc-predef.h hydrazine/interface/LowLevelTimer.h \
+ configure.h /usr/include/c++/4.8/ctime \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/cpu_defines.h \
+ /usr/include/time.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/include/stddef.h \
+ /usr/include/bits/time.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/timex.h \
+ /usr/include/xlocale.h
+
+/usr/include/stdc-predef.h:
+
+hydrazine/interface/LowLevelTimer.h:
+
+configure.h:
+
+/usr/include/c++/4.8/ctime:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/cpu_defines.h:
+
+/usr/include/time.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.8/include/stddef.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/xlocale.h:

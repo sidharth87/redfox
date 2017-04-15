@@ -1,0 +1,123 @@
+#! /bin/python
+
+################################################################################
+#	\file   SConscript
+#	\author Gregory Diamos <gregory.diamos@gatech.edu>
+#   \date   Tuesday March 8, 2011
+#	\brief  The SCons master build script for the Harmony IR runtime
+################################################################################
+
+## Hepler functions
+def config_h_build(target, source, env):
+
+	config_h_defines = env.Dictionary()
+
+	for a_target, a_source in zip(target, source):
+		config_h = file(str(a_target), "w")
+		config_h_in = file(str(a_source), "r")
+		config_h.write(config_h_in.read() % config_h_defines)
+		config_h_in.close()
+		config_h.close()
+
+#
+#
+## The script begins here
+# try to import an environment first
+try:
+	Import('env')
+	print " Imported environment from higher level SCons script."
+except:
+	exec open("../scripts/which.py")
+	prefix = '../'
+	exec open(prefix + "scripts/build_environment.py")
+	env = Environment()
+
+# Create configure.h
+env.AlwaysBuild(env.Command('configure.h', 'configure.h.in', config_h_build))
+
+# find all source files in the source tree
+sources = []
+directories = ['harmony/runtime/implementation',
+	'harmony/hir/implementation',
+	'harmony/cuda/implementation',
+	'harmony/llvm/implementation']
+extensions = ['*.cpp']
+
+# Explicitly add hydrazine sources
+sources.append('hydrazine/implementation/Version.cpp')
+sources.append('hydrazine/implementation/ArgumentParser.cpp')
+sources.append('hydrazine/implementation/string.cpp')
+sources.append('hydrazine/implementation/Exception.cpp')
+sources.append('hydrazine/implementation/Timer.cpp')
+sources.append('hydrazine/implementation/LowLevelTimer.cpp')
+sources.append('hydrazine/implementation/debug.cpp')
+
+for dir in directories:
+	for ext in extensions:
+		regexp = os.path.join(dir, ext)
+		sources.extend(env.Glob(regexp))
+
+# set the harmony build root if a higher level script didn't already do it
+if not 'HARMONY_BUILD_ROOT' in env:
+	env.Replace(OCELOT_BUILD_ROOT = env['BUILD_ROOT'])
+
+# include the build directory in case of generated files
+env.AppendUnique(CPPPATH = env['OCELOT_BUILD_ROOT'])
+
+# Set dependent libraries
+harmony_dep_libs = env['EXTRA_LIBS']
+harmony_dep_libs.extend(env['LLVM_LIBS'])
+
+# Create the harmony library
+libharmony = env.SharedLibrary('harmony', sources, LIBS=harmony_dep_libs)
+
+# Install libraries
+if 'install' in COMMAND_LINE_TARGETS:
+	libharmony = env.Install(
+		os.path.join(env['install_path'], "lib"), libharmony)
+
+harmony_dep_libs.insert(0, '-lharmony')
+
+# Create programs
+HarmonyRuntime = env.Program('harmony-runtime',
+	['harmony/tools/harmony-runtime.cpp'], LIBS=harmony_dep_libs)
+env.Depends(HarmonyRuntime, libharmony)
+
+Default(HarmonyRuntime)
+
+# Install rules
+if env['install']:
+	print 'Installing harmony ir...'
+
+	installed = []
+	installed.append(libharmony)
+	installed.append(env.Install(os.path.join( \
+		env['install_path'], "bin"), HarmonyRuntime))
+
+	# find all header files in the source tree
+	headers = []
+	directories = ['harmony/runtime/interface', 'harmony/hir/interface',
+		'hydrazine/interface', 'harmony/llvm/interface' ]
+	extensions = ['*.h']
+
+	for dir in directories:
+		for ext in extensions:
+			regexp = os.path.join(dir, ext)
+			headers.extend(env.Glob(regexp))
+		
+	for header in headers:
+		(directoryPath, headerName) = os.path.split( \
+			os.path.relpath(str(header), prefix))
+		installed.append(env.Install(os.path.join( \
+			env['install_path'], "include", directoryPath), header))
+
+	for i in installed:
+		env.AddPostAction(str(i), Chmod(str(i), 0644))
+	
+	install_alias = env.Alias('install', env['install_path'])
+	Default(install_alias)
+
+	env.Replace(installed_files = installed)
+
+
+

@@ -1,0 +1,18 @@
+(0.001823) RelationalAlgebraCompiler.cpp:1579:  Adding variable A 0
+(0.001873) RelationalAlgebraCompiler.cpp:1873: A 1
+(0.001904) RelationalAlgebraCompiler.cpp:1579:  Adding variable B 0
+(0.001913) RelationalAlgebraCompiler.cpp:1873: B 1
+(0.001922) RelationalAlgebraCompiler.cpp:8950: Adding block 0
+(0.001930) RelationalAlgebraCompiler.cpp:8960: variable B 1 1 0
+(0.001944) RelationalAlgebraCompiler.cpp:8960: variable A 0 1 0
+(0.001953) RelationalAlgebraCompiler.cpp:9187:  Move
+(0.001968) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Copy.h>
+extern "C" __global__ void copy(char* out, const char* in, const long long unsigned int* size)
+{
+    ra::cuda::copy(out, in, size);
+}
+
+(0.002672) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(1.397519) RelationalAlgebraCompiler.cpp:9181:  Goto
+(1.397547) RelationalAlgebraCompiler.cpp:8950: Adding block 1
+(1.397560) RelationalAlgebraCompiler.cpp:9194:  Exit

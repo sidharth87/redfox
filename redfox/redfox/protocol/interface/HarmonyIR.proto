@@ -1,0 +1,95 @@
+////////////////////////////////////////////////////////////////////////////////
+// File:   HarmonyIR.proto
+// Author: Gregory Diamos <gregory.diamos@gatech.edu>
+// Date:   Monday November 1, 2010
+// Brief:  The google protocol buffer specification for the HarmonyIR 
+//             (the binary format for harmony programs)
+////////////////////////////////////////////////////////////////////////////////
+
+package hir.pb;
+
+message KernelControlFlowGraph
+{
+	required string     name      = 1; // Program Name
+	repeated BasicBlock blocks    = 2; // List of basic blocks in the program
+	repeated Variable   variables = 3; // Global variables in the program
+	required uint32     entry     = 4; // Id of the program entry block
+	required uint32     exit      = 5; // Id of the program exit block
+	required uint32     testCount = 6; // Number of trailing test messages
+}
+
+enum DataType
+{
+	I8   = 1;
+	I16  = 2;
+	I32  = 3;
+	I64  = 4;
+	I128 = 5;
+	F32  = 6;
+	F64  = 7;
+}
+
+message Variable
+{
+	required uint32   name     = 1; // Unique identifier of the variable
+	required DataType type     = 2; // The primitive type of the variable
+	required uint64   size     = 3; // The size of the variable in elements
+	required bool     output   = 4; // Is this variable a program output?
+	required bool     input    = 5; // Is this variable a program input?
+	optional bytes    data     = 6; // The initial contents, if any
+	optional string   filename = 7; // The filename to load the contents from
+}
+
+enum AccessMode
+{
+	In    = 1; // Operand is read-only
+	Out   = 2; // Operand is destructive write-only
+	InOut = 3; // Operand is read-write
+}
+
+message Operand
+{
+	required AccessMode mode     = 1; // How the kernel can access this
+	required uint32     variable = 2; // Associated variable
+}
+
+enum KernelType
+{
+	ComputeKernel       = 1; // Consumes inputs, produces outputs (PTX)
+	BinaryKernel        = 2; // A ComputeKernel that is stored as a native binary
+	ControlDecision     = 3; // Changes control flow, multiple targets
+	UnconditionalBranch = 4; // No operands, jumps to the first target
+	GetSize             = 5; // Get the size of a variable in elements
+	Resize              = 6; // Change the size of a variable in elements
+	UpdateSize          = 7; // Change the size of a variable in elements
+	Exit                = 8; // No operands, ends the program
+}
+
+message Kernel
+{
+	required string     name     = 1; // Name for debugging
+	required bytes     code     = 2; // PTX assembly/or BIN for the kernel
+	required KernelType type     = 3; // Compute kernel or Control Decision
+	repeated Operand    operands = 4; // Kernel operands
+	repeated uint32     targets  = 5; // Target block ids if this is a Control
+}
+
+message BasicBlock
+{
+	required uint32 id       = 1; // Unique ID of the block
+	repeated Kernel kernels  = 2; // List of kernels in the block
+	required Kernel control  = 3; // Determines the next block to execute
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Self-Testing Framework
+message Test
+{
+	required string   name        = 4; // The name of the test 
+	required string   programName = 3; // The name of the program to test
+	repeated Variable inputs      = 1; // List of variables to initialize
+	repeated Variable outputs     = 2; // Reference values of computed variables
+	repeated uint32   features    = 5; // List of features covered by the test
+}
+////////////////////////////////////////////////////////////////////////////////
+

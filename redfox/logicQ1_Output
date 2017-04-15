@@ -1,0 +1,2736 @@
+(0.072585) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_avg_disc 2
+(0.072660) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_avg_disc 3
+(0.072687) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_avg_disc_adt 2
+(0.072696) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_avg_disc_adt 3
+(0.072707) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_avg_price 2
+(0.072716) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_avg_price 3
+(0.072726) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_avg_qty 2
+(0.072735) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_avg_qty 3
+(0.072745) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_count_order 2
+(0.072754) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_count_order 3
+(0.072763) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_dateDelta 0
+(0.072771) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_dateDelta 1
+(0.072780) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_startDate 0
+(0.072788) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_startDate 1
+(0.072798) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_sum_base_price 2
+(0.072807) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_sum_base_price 3
+(0.072817) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_sum_charge 2
+(0.072826) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_sum_charge 3
+(0.072835) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_sum_disc_price 2
+(0.072844) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_sum_disc_price 3
+(0.072854) RelationalAlgebraCompiler.cpp:1579:  Adding variable +$logicQ1:_sum_qty 2
+(0.072867) RelationalAlgebraCompiler.cpp:1873: +$logicQ1:_sum_qty 3
+(0.072876) RelationalAlgebraCompiler.cpp:1579:  Adding variable L_DISCOUNT 2
+(0.072886) RelationalAlgebraCompiler.cpp:1873: L_DISCOUNT 3
+(0.072901) RelationalAlgebraCompiler.cpp:1579:  Adding variable L_EXTENDEDPRICE 2
+(0.072909) RelationalAlgebraCompiler.cpp:1873: L_EXTENDEDPRICE 3
+(0.072917) RelationalAlgebraCompiler.cpp:1579:  Adding variable L_LINESTATUS 2
+(0.072925) RelationalAlgebraCompiler.cpp:1873: L_LINESTATUS 3
+(0.072934) RelationalAlgebraCompiler.cpp:1579:  Adding variable L_QUANTITY 2
+(0.072942) RelationalAlgebraCompiler.cpp:1873: L_QUANTITY 3
+(0.072950) RelationalAlgebraCompiler.cpp:1579:  Adding variable L_RETURNFLAG 2
+(0.072958) RelationalAlgebraCompiler.cpp:1873: L_RETURNFLAG 3
+(0.072967) RelationalAlgebraCompiler.cpp:1579:  Adding variable L_SHIPDATE 2
+(0.072974) RelationalAlgebraCompiler.cpp:1873: L_SHIPDATE 3
+(0.072983) RelationalAlgebraCompiler.cpp:1579:  Adding variable L_TAX 2
+(0.072991) RelationalAlgebraCompiler.cpp:1873: L_TAX 3
+(0.073000) RelationalAlgebraCompiler.cpp:1579:  Adding variable a_10 0
+(0.073007) RelationalAlgebraCompiler.cpp:1873: a_10 0
+(0.073014) RelationalAlgebraCompiler.cpp:1579:  Adding variable a_11 0
+(0.073021) RelationalAlgebraCompiler.cpp:1873: a_11 0
+(0.073027) RelationalAlgebraCompiler.cpp:1579:  Adding variable a_12 0
+(0.073034) RelationalAlgebraCompiler.cpp:1873: a_12 0
+(0.073041) RelationalAlgebraCompiler.cpp:1579:  Adding variable a_13 0
+(0.073048) RelationalAlgebraCompiler.cpp:1873: a_13 0
+(0.073054) RelationalAlgebraCompiler.cpp:1579:  Adding variable a_14 0
+(0.073062) RelationalAlgebraCompiler.cpp:1873: a_14 0
+(0.073069) RelationalAlgebraCompiler.cpp:1579:  Adding variable a_15 0
+(0.073075) RelationalAlgebraCompiler.cpp:1873: a_15 0
+(0.073081) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_1 2
+(0.073090) RelationalAlgebraCompiler.cpp:1873: j_1 4
+(0.073097) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_16 2
+(0.073105) RelationalAlgebraCompiler.cpp:1873: j_16 4
+(0.073111) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_17 2
+(0.073119) RelationalAlgebraCompiler.cpp:1873: j_17 5
+(0.073126) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_18 0
+(0.073132) RelationalAlgebraCompiler.cpp:1873: j_18 0
+(0.073139) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_2 2
+(0.073147) RelationalAlgebraCompiler.cpp:1873: j_2 5
+(0.073170) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_3 2
+(0.073190) RelationalAlgebraCompiler.cpp:1873: j_3 6
+(0.073199) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_4 2
+(0.073207) RelationalAlgebraCompiler.cpp:1873: j_4 7
+(0.073215) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_5 2
+(0.073223) RelationalAlgebraCompiler.cpp:1873: j_5 8
+(0.073231) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_7 0
+(0.073239) RelationalAlgebraCompiler.cpp:1873: j_7 7
+(0.073246) RelationalAlgebraCompiler.cpp:1579:  Adding variable j_8 0
+(0.073254) RelationalAlgebraCompiler.cpp:1873: j_8 8
+(0.073261) RelationalAlgebraCompiler.cpp:1579:  Adding variable m_0 0
+(0.073268) RelationalAlgebraCompiler.cpp:1873: m_0 0
+(0.073275) RelationalAlgebraCompiler.cpp:1579:  Adding variable m_19 0
+(0.073282) RelationalAlgebraCompiler.cpp:1873: m_19 0
+(0.073289) RelationalAlgebraCompiler.cpp:1579:  Adding variable m_20 0
+(0.073296) RelationalAlgebraCompiler.cpp:1873: m_20 0
+(0.073302) RelationalAlgebraCompiler.cpp:1579:  Adding variable m_21 0
+(0.073309) RelationalAlgebraCompiler.cpp:1873: m_21 0
+(0.073315) RelationalAlgebraCompiler.cpp:1579:  Adding variable m_6 2
+(0.073323) RelationalAlgebraCompiler.cpp:1873: m_6 3
+(0.073330) RelationalAlgebraCompiler.cpp:1579:  Adding variable m_9 0
+(0.073337) RelationalAlgebraCompiler.cpp:1873: m_9 0
+(0.073343) RelationalAlgebraCompiler.cpp:1579:  Adding variable temp_1 0
+(0.073351) RelationalAlgebraCompiler.cpp:1873: temp_1 7
+(0.073358) RelationalAlgebraCompiler.cpp:1579:  Adding variable temp_2 2
+(0.073365) RelationalAlgebraCompiler.cpp:1873: temp_2 5
+(0.073372) RelationalAlgebraCompiler.cpp:8950: Adding block 0
+(0.073379) RelationalAlgebraCompiler.cpp:8960: variable m_9 39 0 0
+(0.073390) RelationalAlgebraCompiler.cpp:8960: variable m_21 37 0 0
+(0.073400) RelationalAlgebraCompiler.cpp:8960: variable m_19 35 0 0
+(0.073408) RelationalAlgebraCompiler.cpp:8960: variable m_0 34 0 0
+(0.073415) RelationalAlgebraCompiler.cpp:8960: variable j_8 33 8 0
+(0.073423) RelationalAlgebraCompiler.cpp:8960: variable j_7 32 7 0
+(0.073431) RelationalAlgebraCompiler.cpp:8960: variable j_4 30 7 2
+(0.073439) RelationalAlgebraCompiler.cpp:8960: variable j_3 29 6 2
+(0.073447) RelationalAlgebraCompiler.cpp:8960: variable j_18 27 0 0
+(0.073455) RelationalAlgebraCompiler.cpp:8960: variable m_20 36 0 0
+(0.073462) RelationalAlgebraCompiler.cpp:8960: variable j_17 26 5 2
+(0.073471) RelationalAlgebraCompiler.cpp:8960: variable j_16 25 4 2
+(0.073479) RelationalAlgebraCompiler.cpp:8960: variable a_14 22 0 0
+(0.073486) RelationalAlgebraCompiler.cpp:8960: variable temp_1 40 7 0
+(0.073494) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_startDate 6 1 0
+(0.073503) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_dateDelta 5 1 0
+(0.073512) RelationalAlgebraCompiler.cpp:8960: variable temp_2 41 5 2
+(0.073519) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_count_order 4 3 2
+(0.073528) RelationalAlgebraCompiler.cpp:8960: variable a_15 23 0 0
+(0.073535) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_sum_charge 8 3 2
+(0.073544) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_avg_qty 3 3 2
+(0.073552) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_sum_base_price 7 3 2
+(0.073560) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_avg_disc_adt 1 3 2
+(0.073569) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_avg_price 2 3 2
+(0.073577) RelationalAlgebraCompiler.cpp:8960: variable a_10 18 0 0
+(0.073584) RelationalAlgebraCompiler.cpp:8960: variable j_1 24 4 2
+(0.073592) RelationalAlgebraCompiler.cpp:8960: variable L_RETURNFLAG 15 3 2
+(0.073600) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_avg_disc 0 3 2
+(0.073608) RelationalAlgebraCompiler.cpp:8960: variable m_6 38 3 2
+(0.073616) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_sum_qty 10 3 2
+(0.073624) RelationalAlgebraCompiler.cpp:8960: variable L_QUANTITY 14 3 2
+(0.073633) RelationalAlgebraCompiler.cpp:8960: variable L_DISCOUNT 11 3 2
+(0.073640) RelationalAlgebraCompiler.cpp:8960: variable L_EXTENDEDPRICE 12 3 2
+(0.073652) RelationalAlgebraCompiler.cpp:8960: variable L_LINESTATUS 13 3 2
+(0.073660) RelationalAlgebraCompiler.cpp:8960: variable L_SHIPDATE 16 3 2
+(0.073668) RelationalAlgebraCompiler.cpp:8960: variable j_5 31 8 2
+(0.073676) RelationalAlgebraCompiler.cpp:8960: variable j_2 28 5 2
+(0.073684) RelationalAlgebraCompiler.cpp:8960: variable +$logicQ1:_sum_disc_price 9 3 2
+(0.073692) RelationalAlgebraCompiler.cpp:8960: variable L_TAX 17 3 2
+(0.073700) RelationalAlgebraCompiler.cpp:8960: variable a_11 19 0 0
+(0.073708) RelationalAlgebraCompiler.cpp:8960: variable a_12 20 0 0
+(0.073716) RelationalAlgebraCompiler.cpp:8960: variable a_13 21 0 0
+(0.073724) RelationalAlgebraCompiler.cpp:9098:  Assign
+(0.073730) RelationalAlgebraCompiler.cpp:9157:   MapFilter
+(0.073740) RelationalAlgebraCompiler.cpp:7206: start finding compare...
+(0.073746) RelationalAlgebraCompiler.cpp:7284: hasSelect? 0
+(0.073753) RelationalAlgebraCompiler.cpp:6812: check reordering 6
+(0.073764) RelationalAlgebraCompiler.cpp:6974:       Arith
+(0.073780) RelationalAlgebraCompiler.cpp:7032: source +$logicQ1:_dateDelta 1
+(0.073794) RelationalAlgebraCompiler.cpp:7070: dest after initial 1 42 +$logicQ1:_dateDelta_arith00
+(0.073802) RelationalAlgebraCompiler.cpp:7153: dest after push back 2
+(0.073851) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void arith_get_result_size0(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(0.074677) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(1.603385) RelationalAlgebraCompiler.cpp:666:  starting translating arith 6
+(1.603419) RelationalAlgebraCompiler.cpp:634:  constant date_time_int 912470400
+(1.603441) RelationalAlgebraCompiler.cpp:651:  index offset 0
+(1.603473) RelationalAlgebraKernel.cpp:2003: Getting CUDA source for arithmetic ptx kernel.
+(1.603500) RelationalAlgebraKernel.cpp:1840: ###### ConstantNode 4 
+(1.603511) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(1.603529) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_arith1(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+	unsigned int step     = gridDim.x * blockDim.x;
+	unsigned int start    = threadIdx.x + blockIdx.x * blockDim.x;
+	unsigned int elements = (*size)/sizeof(ResultType);
+	for(unsigned int i = start; i < elements; i += step)
+	{
+	    if(i < elements)
+           {
+		    	ResultType tmp1 = (ResultType)begin[i] << (unsigned int)64;
+		        long long unsigned int tmp2 = (912470400 - ra::tuple::extract<long long unsigned int, 0, SourceTuple>(begin[i]));
+		    	result[i] = ra::tuple::insert<long long unsigned int, 1, ResultTuple>(tmp1, tmp2);
+           }
+	}
+}
+
+(1.605077) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(3.152674) RelationalAlgebraCompiler.cpp:5339: Projection
+(3.152690) RelationalAlgebraCompiler.cpp:5341:    destination: +$logicQ1:_startDate (6 0)
+(3.152695) RelationalAlgebraCompiler.cpp:5343:    srcA: +$logicQ1:_dateDelta_arith00 (42 0)
+(3.152702) RelationalAlgebraCompiler.cpp:5419: Keep fields 1 out of 2
+(3.152735) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size2(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(3.154336) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(4.618693) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(4.618720) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<1, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project3(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(4.620251) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(6.453175) RelationalAlgebraCompiler.cpp:9181:  Goto
+(6.453199) RelationalAlgebraCompiler.cpp:8950: Adding block 2
+(6.453207) RelationalAlgebraCompiler.cpp:9098:  Assign
+(6.453211) RelationalAlgebraCompiler.cpp:9137:   Join
+(6.453220) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(6.453224) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(6.453228) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(6.453232) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(6.453239) RelationalAlgebraCompiler.cpp:4450:    destination: j_1 (24)
+(6.453243) RelationalAlgebraCompiler.cpp:4452:    srcA: L_LINESTATUS (13)
+(6.453248) RelationalAlgebraCompiler.cpp:4454:    srcB: L_RETURNFLAG (15)
+(6.453276) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(6.453295) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size4(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(6.454489) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(7.934497) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(7.934530) RelationalAlgebraCompiler.cpp:4635: add split.
+(7.934545) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(7.934573) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split5(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(7.935922) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(9.472273) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(9.472324) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size6(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(9.473714) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(11.023928) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(11.023954) RelationalAlgebraCompiler.cpp:4761: add split.
+(11.023966) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(11.023985) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split7(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(11.025286) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(12.711464) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(12.711501) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size8(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(12.712873) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(14.095405) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(14.095437) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(14.095468) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds9(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_32(lower_bound, left_count,result_size, left_key, left_size/4, right_key, right_size/4);
+}
+
+(14.097111) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(17.146880) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(17.579174) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(17.579217) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size10(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(17.580976) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(18.988414) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(18.988448) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(18.988461) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main11(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(18.989800) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(22.121630) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(22.339762) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(22.339812) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather12(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(22.341500) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(23.768246) RelationalAlgebraCompiler.cpp:9098:  Assign
+(23.768277) RelationalAlgebraCompiler.cpp:9137:   Join
+(23.768292) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(23.768304) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(23.768311) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(23.768322) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(23.768331) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(23.768344) RelationalAlgebraCompiler.cpp:4450:    destination: j_2 (28)
+(23.768354) RelationalAlgebraCompiler.cpp:4452:    srcA: j_1 (24)
+(23.768361) RelationalAlgebraCompiler.cpp:4454:    srcB: L_QUANTITY (14)
+(23.768416) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(23.768449) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size13(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(23.769912) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(25.311029) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(25.311058) RelationalAlgebraCompiler.cpp:4635: add split.
+(25.311070) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(25.311089) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split14(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(25.312644) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(26.869960) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(26.869998) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size15(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(26.871385) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(28.377318) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(28.377350) RelationalAlgebraCompiler.cpp:4761: add split.
+(28.377363) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(28.377382) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split16(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(28.378919) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(30.012590) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(30.012642) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size17(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(30.014102) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(31.454420) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(31.454456) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(31.454481) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds18(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_32(lower_bound, left_count,result_size, left_key, left_size/4, right_key, right_size/4);
+}
+
+(31.455735) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(34.543989) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(34.868891) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(34.868932) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size19(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(34.870948) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(36.263695) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(36.263722) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(36.263731) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main20(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(36.265261) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(39.248788) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(39.487523) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(39.487578) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather21(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(39.489897) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(40.987136) RelationalAlgebraCompiler.cpp:9098:  Assign
+(40.987155) RelationalAlgebraCompiler.cpp:9137:   Join
+(40.987165) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(40.987171) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(40.987176) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(40.987187) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(40.987191) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(40.987196) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(40.987206) RelationalAlgebraCompiler.cpp:4450:    destination: j_3 (29)
+(40.987211) RelationalAlgebraCompiler.cpp:4452:    srcA: j_2 (28)
+(40.987216) RelationalAlgebraCompiler.cpp:4454:    srcB: L_EXTENDEDPRICE (12)
+(40.987256) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(40.987278) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size22(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(40.988818) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(42.474678) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(42.474706) RelationalAlgebraCompiler.cpp:4635: add split.
+(42.474719) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(42.474738) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split23(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(42.476256) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(44.097330) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(44.097380) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size24(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(44.098546) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(45.675942) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(45.675975) RelationalAlgebraCompiler.cpp:4761: add split.
+(45.675987) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(45.676005) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split25(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(45.677836) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(47.304809) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(47.304841) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size26(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(47.306340) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(48.668280) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(48.668308) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(48.668322) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds27(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_32(lower_bound, left_count,result_size, left_key, left_size/4, right_key, right_size/4);
+}
+
+(48.669834) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(51.815122) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(52.162187) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(52.162248) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size28(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(52.163872) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(53.546352) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(53.546379) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(53.546387) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main29(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(53.547916) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(56.525447) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(56.757137) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(56.757173) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<1, 2, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather30(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(56.759655) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(58.489527) RelationalAlgebraCompiler.cpp:9098:  Assign
+(58.489549) RelationalAlgebraCompiler.cpp:9137:   Join
+(58.489558) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(58.489565) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(58.489569) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(58.489574) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(58.489579) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(58.489583) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(58.489588) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(58.489597) RelationalAlgebraCompiler.cpp:4450:    destination: j_4 (30)
+(58.489603) RelationalAlgebraCompiler.cpp:4452:    srcA: j_3 (29)
+(58.489608) RelationalAlgebraCompiler.cpp:4454:    srcB: L_DISCOUNT (11)
+(58.489645) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(58.489667) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size31(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(58.491313) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(60.274271) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(60.274309) RelationalAlgebraCompiler.cpp:4635: add split.
+(60.274324) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(60.274352) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split32(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(60.275687) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(61.955611) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(61.955661) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size33(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(61.957193) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(63.489589) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(63.489622) RelationalAlgebraCompiler.cpp:4761: add split.
+(63.489639) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(63.489667) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split34(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(63.491193) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(65.150448) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(65.150478) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size35(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(65.152136) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(66.570389) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(66.570424) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(66.570451) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds36(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_32(lower_bound, left_count,result_size, left_key, left_size/4, right_key, right_size/4);
+}
+
+(66.571801) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(69.647928) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(69.872860) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(69.872893) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size37(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(69.875616) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(71.187810) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(71.187842) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(71.187850) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main38(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(71.189094) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(74.264762) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(74.493392) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(74.493451) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather39(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(74.495141) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(75.995214) RelationalAlgebraCompiler.cpp:9098:  Assign
+(75.995251) RelationalAlgebraCompiler.cpp:9137:   Join
+(75.995264) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995273) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995297) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995311) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995326) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995341) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995355) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995370) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(75.995394) RelationalAlgebraCompiler.cpp:4450:    destination: j_5 (31)
+(75.995411) RelationalAlgebraCompiler.cpp:4452:    srcA: j_4 (30)
+(75.995427) RelationalAlgebraCompiler.cpp:4454:    srcB: L_SHIPDATE (16)
+(75.995525) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(75.995584) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size40(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(75.996793) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(77.502809) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(77.502837) RelationalAlgebraCompiler.cpp:4635: add split.
+(77.502850) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(77.502871) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split41(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(77.504187) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(79.133250) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(79.133308) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size42(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(79.134905) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(80.636854) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(80.636885) RelationalAlgebraCompiler.cpp:4761: add split.
+(80.636898) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(80.636916) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split43(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(80.638612) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(82.235788) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(82.235826) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size44(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(82.237191) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(83.709528) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(83.709556) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(83.709569) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds45(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_32(lower_bound, left_count,result_size, left_key, left_size/4, right_key, right_size/4);
+}
+
+(83.710679) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(87.524768) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(88.363551) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(88.363600) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size46(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(88.372418) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(89.893443) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(89.893471) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(89.893480) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main47(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(89.902040) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(93.500842) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(95.790498) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(95.790557) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather48(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(96.391098) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(98.592251) RelationalAlgebraCompiler.cpp:9098:  Assign
+(98.592274) RelationalAlgebraCompiler.cpp:9157:   MapFilter
+(98.592282) RelationalAlgebraCompiler.cpp:7206: start finding compare...
+(98.592288) RelationalAlgebraCompiler.cpp:7284: hasSelect? 0
+(98.592294) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(98.592300) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(98.592304) RelationalAlgebraCompiler.cpp:6812: check reordering 3
+(98.592309) RelationalAlgebraCompiler.cpp:6974:       Arith
+(98.592322) RelationalAlgebraCompiler.cpp:7032: source L_TAX 3
+(98.592335) RelationalAlgebraCompiler.cpp:7070: dest after initial 3 135 L_TAX_arith01
+(98.592341) RelationalAlgebraCompiler.cpp:7153: dest after push back 4
+(98.592368) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<3, 23, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void arith_get_result_size49(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(98.593552) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(100.141514) RelationalAlgebraCompiler.cpp:666:  starting translating arith 3
+(100.141540) RelationalAlgebraCompiler.cpp:724:  mapping the root operator
+(100.141545) RelationalAlgebraCompiler.cpp:539:  +
+(100.141556) RelationalAlgebraCompiler.cpp:622:  constant float 1
+(100.141565) RelationalAlgebraCompiler.cpp:651:  index offset 2
+(100.141577) RelationalAlgebraKernel.cpp:2003: Getting CUDA source for arithmetic ptx kernel.
+(100.141592) RelationalAlgebraKernel.cpp:1840: ###### ConstantNode 9 1
+(100.141598) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(100.141609) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_arith50(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+	unsigned int step     = gridDim.x * blockDim.x;
+	unsigned int start    = threadIdx.x + blockIdx.x * blockDim.x;
+	unsigned int elements = (*size)/sizeof(ResultType);
+	for(unsigned int i = start; i < elements; i += step)
+	{
+	    if(i < elements)
+           {
+		    	ResultType tmp1 = (ResultType)begin[i] << (unsigned int)64;
+		        double tmp2 = (1 + ra::tuple::extract_double<2, SourceTuple>(begin[i]));
+		    	result[i] = ra::tuple::insert_double<3, ResultTuple>(tmp1, tmp2);
+           }
+	}
+}
+
+(100.143208) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(101.592275) RelationalAlgebraCompiler.cpp:5339: Projection
+(101.592297) RelationalAlgebraCompiler.cpp:5341:    destination: m_6 (38 2)
+(101.592304) RelationalAlgebraCompiler.cpp:5343:    srcA: L_TAX_arith01 (135 2)
+(101.592314) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 3 out of 4
+(101.592358) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size51(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(101.593618) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(103.198591) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(103.198623) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 3, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project52(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(103.200005) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(105.275271) RelationalAlgebraCompiler.cpp:9098:  Assign
+(105.275296) RelationalAlgebraCompiler.cpp:9137:   Join
+(105.275316) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(105.275325) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(105.275332) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(105.275339) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(105.275345) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(105.275353) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(105.275360) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(105.275382) RelationalAlgebraCompiler.cpp:4450:    destination: j_7_join (138)
+(105.275390) RelationalAlgebraCompiler.cpp:4452:    srcA: j_5 (31)
+(105.275398) RelationalAlgebraCompiler.cpp:4454:    srcB: m_6 (38)
+(105.275444) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(105.275475) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size53(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(105.276372) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(106.777194) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(106.777226) RelationalAlgebraCompiler.cpp:4635: add split.
+(106.777242) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(106.777270) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split54(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(106.778460) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(108.525295) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(108.525353) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size55(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(108.526294) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(110.311496) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(110.311527) RelationalAlgebraCompiler.cpp:4761: add split.
+(110.311539) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(110.311558) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<3, 23, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split56(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(110.312598) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(111.891698) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(111.891743) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size57(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(111.892841) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(113.317538) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(113.317573) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(113.317593) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds58(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_32(lower_bound, left_count,result_size, left_key, left_size/4, right_key, right_size/4);
+}
+
+(113.318764) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(116.549700) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(116.911510) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(116.911558) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size59(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(116.912982) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(118.383374) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(118.383422) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(118.383435) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main60(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(118.384908) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(121.553557) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(121.768797) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(121.768836) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<3, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather61(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(121.770199) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(123.226459) RelationalAlgebraCompiler.cpp:5339: Projection
+(123.226492) RelationalAlgebraCompiler.cpp:5341:    destination: j_7 (32 0)
+(123.226500) RelationalAlgebraCompiler.cpp:5343:    srcA: j_7_join (138 2)
+(123.226513) RelationalAlgebraCompiler.cpp:5419: Keep fields 2 3 4 5 6 7 8 out of 9
+(123.226563) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size62(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(123.227724) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(124.733597) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(124.733664) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<3, 23, 1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<2, 3, 4, 5, 6, 7, 8, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project63(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(124.734690) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(127.454028) RelationalAlgebraCompiler.cpp:9098:  Assign
+(127.454057) RelationalAlgebraCompiler.cpp:9137:   Join
+(127.454072) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454081) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454089) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454097) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454104) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454111) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454118) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454126) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(127.454138) RelationalAlgebraCompiler.cpp:3759:    destination: j_8 (33)
+(127.454146) RelationalAlgebraCompiler.cpp:3761:    srcA: j_7 (32)
+(127.454154) RelationalAlgebraCompiler.cpp:3763:    srcB: +$logicQ1:_startDate (6)
+(127.454227) RelationalAlgebraKernel.cpp:926:  Getting CUDA source for product get result size ptx kernel.
+(127.454252) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Product.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> DestTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightTuple;
+typedef LeftTuple::BasicType LeftType;
+typedef RightTuple::BasicType RightType;
+extern "C" __global__ void product_get_result_size64(long long unsigned int* size, const long long unsigned int* leftSize, const long long unsigned int* rightSize)
+{
+    ra::cuda::resultSize<DestTuple, LeftTuple, RightTuple>(size, *leftSize/sizeof(LeftType), *rightSize/sizeof(RightType));
+}
+
+(127.455251) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(128.834557) RelationalAlgebraKernel.cpp:954:  Getting CUDA source for product ptx kernel.
+(128.834591) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Product.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> DestTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightTuple;
+typedef DestTuple::BasicType DestType;
+typedef LeftTuple::BasicType LeftType;
+typedef RightTuple::BasicType RightType;
+extern "C" __global__ void set_product65(DestType* result,const LeftType* left,   const long long unsigned int* leftSize,const RightType* right, const long long unsigned int* rightSize)
+{
+    ra::cuda::product<DestTuple, LeftTuple, RightTuple>(result, left, left + (*leftSize/sizeof(LeftType)), right, right + (*rightSize/sizeof(RightType)));
+}
+
+(128.835730) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(130.316541) RelationalAlgebraCompiler.cpp:9098:  Assign
+(130.316557) RelationalAlgebraCompiler.cpp:9157:   MapFilter
+(130.316566) RelationalAlgebraCompiler.cpp:7206: start finding compare...
+(130.316575) RelationalAlgebraCompiler.cpp:7210: start one iteration 0
+(130.316581) RelationalAlgebraCompiler.cpp:7214: find one compare
+(130.316590) RelationalAlgebraCompiler.cpp:7284: hasSelect? 1
+(130.316597) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(130.316601) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(130.316605) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(130.316610) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(130.316614) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(130.316618) RelationalAlgebraCompiler.cpp:6812: check reordering 3
+(130.316622) RelationalAlgebraCompiler.cpp:6812: check reordering 3
+(130.316633) RelationalAlgebraCompiler.cpp:6218:    destination: temp_1_select (160)
+(130.316638) RelationalAlgebraCompiler.cpp:6220:    srcA: j_8 (33)
+(130.316674) RelationalAlgebraCompiler.cpp:770:  Translating comparison:
+(130.316681) RelationalAlgebraCompiler.cpp:375:  checkSigned 1 1
+(130.316688) RelationalAlgebraCompiler.cpp:794:   field 5
+(130.316693) RelationalAlgebraCompiler.cpp:874:   field 7
+(130.316724) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 128
+#include <redfox/ra/interface/Select.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef long long unsigned int ValueType;
+typedef ra::comparisons::le<long long unsigned int> Comparison;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void set_select66(ResultType* output, unsigned int* histogram, const ResultType* input, const long long unsigned int* bytes)
+{
+    ra::cuda::select_field_field<ResultTuple, Comparison, ValueType, 128, 5, 7>(output, histogram, input, input + (*bytes/sizeof(ResultType)));
+}
+
+(130.317964) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(132.134578) RelationalAlgebraKernel.cpp:1401: Getting CUDA source for the scan ptx kernel.
+(132.134610) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Join.h>
+extern "C" __global__ void scan67(unsigned int* histogram)
+{
+    unsigned int max = 0;
+    histogram[threadIdx.x] = ra::cuda::exclusiveScan<128, unsigned int>(histogram[threadIdx.x], max);
+}
+
+(132.135863) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(133.627748) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Select.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void select_get_result_size68(long long unsigned int* size, unsigned int* histogram)
+{
+    ra::cuda::getResultSize<ResultType, 128>(size, histogram);
+}
+
+(133.628821) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(135.078989) RelationalAlgebraKernel.cpp:2571: Getting CUDA source for the select gather ptx kernel.
+(135.079022) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 128
+#include <redfox/ra/interface/Select.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> DestTuple;
+typedef DestTuple::BasicType DestType;
+extern "C" __global__ void select_gather69(DestType* dest,const DestType* temp, long long unsigned int *tempSize,const unsigned int* histogram)
+{
+    ra::cuda::gather<DestTuple, 128>(dest, temp, temp + (*tempSize/sizeof(DestType)), histogram);
+}
+
+(135.079992) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(136.602084) RelationalAlgebraCompiler.cpp:6974:       Arith
+(136.602125) RelationalAlgebraCompiler.cpp:7032: source temp_1_select 8
+(136.602146) RelationalAlgebraCompiler.cpp:7070: dest after initial 8 167 temp_1_select_arith02
+(136.602155) RelationalAlgebraCompiler.cpp:7153: dest after push back 9
+(136.602214) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void arith_get_result_size70(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(136.603077) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(138.218054) RelationalAlgebraCompiler.cpp:666:  starting translating arith 3
+(138.218078) RelationalAlgebraCompiler.cpp:724:  mapping the root operator
+(138.218084) RelationalAlgebraCompiler.cpp:551:  *
+(138.218092) RelationalAlgebraCompiler.cpp:651:  index offset 3
+(138.218104) RelationalAlgebraCompiler.cpp:545:  -
+(138.218110) RelationalAlgebraCompiler.cpp:622:  constant float 1
+(138.218117) RelationalAlgebraCompiler.cpp:651:  index offset 4
+(138.218129) RelationalAlgebraKernel.cpp:2003: Getting CUDA source for arithmetic ptx kernel.
+(138.218143) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(138.218150) RelationalAlgebraKernel.cpp:1827: ###### operator
+(138.218155) RelationalAlgebraKernel.cpp:1840: ###### ConstantNode 9 1
+(138.218160) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(138.218170) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_arith71(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+	unsigned int step     = gridDim.x * blockDim.x;
+	unsigned int start    = threadIdx.x + blockIdx.x * blockDim.x;
+	unsigned int elements = (*size)/sizeof(ResultType);
+	for(unsigned int i = start; i < elements; i += step)
+	{
+	    if(i < elements)
+           {
+		    	ResultType tmp1 = (ResultType)begin[i] << (unsigned int)64;
+		        double tmp2 = (ra::tuple::extract_double<3, SourceTuple>(begin[i]) * (1 - ra::tuple::extract_double<4, SourceTuple>(begin[i])));
+		    	result[i] = ra::tuple::insert_double<8, ResultTuple>(tmp1, tmp2);
+           }
+	}
+}
+
+(138.219471) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(140.076263) RelationalAlgebraCompiler.cpp:6974:       Arith
+(140.076292) RelationalAlgebraCompiler.cpp:7032: source temp_1_select_arith02 9
+(140.076309) RelationalAlgebraCompiler.cpp:7070: dest after initial 9 169 temp_1_select_arith13
+(140.076331) RelationalAlgebraCompiler.cpp:7153: dest after push back 10
+(140.076392) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void arith_get_result_size72(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(140.077334) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(141.664796) RelationalAlgebraCompiler.cpp:666:  starting translating arith 3
+(141.664821) RelationalAlgebraCompiler.cpp:724:  mapping the root operator
+(141.664827) RelationalAlgebraCompiler.cpp:551:  *
+(141.664835) RelationalAlgebraCompiler.cpp:651:  index offset 8
+(141.664844) RelationalAlgebraCompiler.cpp:651:  index offset 6
+(141.664855) RelationalAlgebraKernel.cpp:2003: Getting CUDA source for arithmetic ptx kernel.
+(141.664875) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(141.664881) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(141.664892) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_arith73(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+	unsigned int step     = gridDim.x * blockDim.x;
+	unsigned int start    = threadIdx.x + blockIdx.x * blockDim.x;
+	unsigned int elements = (*size)/sizeof(ResultType);
+	for(unsigned int i = start; i < elements; i += step)
+	{
+	    if(i < elements)
+           {
+		    	ResultType tmp1 = (ResultType)begin[i] << (unsigned int)64;
+		        double tmp2 = (ra::tuple::extract_double<8, SourceTuple>(begin[i]) * ra::tuple::extract_double<6, SourceTuple>(begin[i]));
+		    	result[i] = ra::tuple::insert_double<9, ResultTuple>(tmp1, tmp2);
+           }
+	}
+}
+
+(141.665898) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(143.499714) RelationalAlgebraCompiler.cpp:5339: Projection
+(143.499740) RelationalAlgebraCompiler.cpp:5341:    destination: temp_1 (40 0)
+(143.499749) RelationalAlgebraCompiler.cpp:5343:    srcA: temp_1_select_arith13 (169 0)
+(143.499762) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 2 3 4 8 9 out of 10
+(143.499807) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size74(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(143.500931) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(144.955364) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(144.955404) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 2, 3, 4, 8, 9, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project75(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(144.956465) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(147.290524) RelationalAlgebraCompiler.cpp:9181:  Goto
+(147.290559) RelationalAlgebraCompiler.cpp:8950: Adding block 3
+(147.290570) RelationalAlgebraCompiler.cpp:9098:  Assign
+(147.290577) RelationalAlgebraCompiler.cpp:9164:   Agg
+(147.290607) RelationalAlgebraCompiler.cpp:7891: total
+(147.290616) RelationalAlgebraCompiler.cpp:7933: get the size of the output
+(147.290648) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size76(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(147.291648) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(148.778055) RelationalAlgebraCompiler.cpp:7969: resize the output
+(148.778086) RelationalAlgebraCompiler.cpp:7987: add the projection
+(148.778108) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(148.778126) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<1, 0, 2, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project77(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(148.779126) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(151.183029) RelationalAlgebraCompiler.cpp:8034: Keep fields 1 0 2 out of 7
+(151.183069) RelationalAlgebraCompiler.cpp:8081: get the output size of split.
+(151.183099) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size78(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(151.184248) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(152.733612) RelationalAlgebraCompiler.cpp:8122: resize the output size of split.
+(152.733649) RelationalAlgebraCompiler.cpp:8160: add split.
+(152.733677) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(152.733705) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split79(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(152.734690) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(154.479969) RelationalAlgebraCompiler.cpp:3437: add sort.
+(154.480021) RelationalAlgebraKernel.cpp:2747: Getting CUDA source for sort ptx kernel.
+(154.480036) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/b40cSort.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_key;
+typedef Tuple_key::BasicType TupleType_key;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_value;
+typedef Tuple_value::BasicType TupleType_value;
+extern "C" void set_b40csortpair80(TupleType_key* key_begin, TupleType_value* value_begin, const long long unsigned int key_size, unsigned long long int key_bits, unsigned long long int value_type)
+{
+    if(key_size != sizeof(TupleType_key))
+    redfox::sort_pair(key_begin, value_begin,(key_size / sizeof(TupleType_key)), key_bits, value_type);
+}
+
+(154.481009) CudaCompilerInterface.cpp:373:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(157.522508) CudaCompilerInterface.cpp:403:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed b40cSort.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(158.088316) RelationalAlgebraCompiler.cpp:8218:  Reduce by Key.
+(158.088353) RelationalAlgebraCompiler.cpp:8226: resize the output size of reduce.
+(158.088371) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(158.088381) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(158.088387) RelationalAlgebraKernel.cpp:2802: Getting CUDA source for reduce ptx kernel.
+(158.088396) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/Reduce.h>
+extern "C" void set_reduce81(unsigned char* result_key_begin, double* result_value_begin, unsigned char* key_begin, unsigned long long int *key_size, double* value_begin, unsigned long long int *value_size)
+{
+    redfox::total_8_double(key_begin,          value_begin, result_key_begin,          result_value_begin, key_size, value_size);
+}
+
+(158.090795) CudaCompilerInterface.cpp:187:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(163.066759) CudaCompilerInterface.cpp:217:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed Reduce.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(163.547397) RelationalAlgebraCompiler.cpp:8500: get the output size of merge.
+
+(163.547456) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef ValueTuple::BasicType ValueType;
+extern "C" __global__ void merge_get_result_size82(long long unsigned int* size,long long unsigned int* value_size)
+{
+    ra::cuda::getMergeResultSize<ResultType, ValueType>(size, value_size);
+}
+
+(163.548755) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(165.176130) RelationalAlgebraCompiler.cpp:8542: resize the output size of merge.
+(165.176167) RelationalAlgebraCompiler.cpp:8560: merge.
+(165.176205) RelationalAlgebraKernel.cpp:1727: Getting CUDA source for merge ptx kernel.
+(165.176237) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void set_merge83(ResultType* result, const KeyType* key_begin, const long long unsigned int* key_size, const ValueType* value_begin, const long long unsigned int* value_size)
+{
+    ra::cuda::merge<KeyTuple, ValueTuple, ResultTuple, 2>(result, key_begin, key_begin + (*key_size / sizeof(KeyType)), value_begin, value_begin + (*value_size / sizeof(ValueType)));
+}
+
+(165.177568) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(166.816937) RelationalAlgebraCompiler.cpp:9181:  Goto
+(166.816960) RelationalAlgebraCompiler.cpp:8950: Adding block 5
+(166.816967) RelationalAlgebraCompiler.cpp:9098:  Assign
+(166.816973) RelationalAlgebraCompiler.cpp:9164:   Agg
+(166.817003) RelationalAlgebraCompiler.cpp:7891: total
+(166.817009) RelationalAlgebraCompiler.cpp:7933: get the size of the output
+(166.817034) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size84(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(166.818048) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(168.434312) RelationalAlgebraCompiler.cpp:7969: resize the output
+(168.434335) RelationalAlgebraCompiler.cpp:7987: add the projection
+(168.434357) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(168.434376) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<1, 0, 3, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project85(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(168.435580) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(170.912926) RelationalAlgebraCompiler.cpp:8034: Keep fields 1 0 3 out of 7
+(170.912975) RelationalAlgebraCompiler.cpp:8081: get the output size of split.
+(170.913016) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size86(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(170.914106) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(172.414947) RelationalAlgebraCompiler.cpp:8122: resize the output size of split.
+(172.414977) RelationalAlgebraCompiler.cpp:8160: add split.
+(172.414998) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(172.415019) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split87(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(172.415979) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(174.056925) RelationalAlgebraCompiler.cpp:3437: add sort.
+(174.056960) RelationalAlgebraKernel.cpp:2747: Getting CUDA source for sort ptx kernel.
+(174.056980) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/b40cSort.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_key;
+typedef Tuple_key::BasicType TupleType_key;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_value;
+typedef Tuple_value::BasicType TupleType_value;
+extern "C" void set_b40csortpair88(TupleType_key* key_begin, TupleType_value* value_begin, const long long unsigned int key_size, unsigned long long int key_bits, unsigned long long int value_type)
+{
+    if(key_size != sizeof(TupleType_key))
+    redfox::sort_pair(key_begin, value_begin,(key_size / sizeof(TupleType_key)), key_bits, value_type);
+}
+
+(174.058195) CudaCompilerInterface.cpp:373:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(177.032980) CudaCompilerInterface.cpp:403:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed b40cSort.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(177.507471) RelationalAlgebraCompiler.cpp:8218:  Reduce by Key.
+(177.507519) RelationalAlgebraCompiler.cpp:8226: resize the output size of reduce.
+(177.507535) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(177.507548) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(177.507555) RelationalAlgebraKernel.cpp:2802: Getting CUDA source for reduce ptx kernel.
+(177.507567) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/Reduce.h>
+extern "C" void set_reduce89(unsigned char* result_key_begin, double* result_value_begin, unsigned char* key_begin, unsigned long long int *key_size, double* value_begin, unsigned long long int *value_size)
+{
+    redfox::total_8_double(key_begin,          value_begin, result_key_begin,          result_value_begin, key_size, value_size);
+}
+
+(177.508991) CudaCompilerInterface.cpp:187:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(182.702998) CudaCompilerInterface.cpp:217:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed Reduce.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(183.232430) RelationalAlgebraCompiler.cpp:8500: get the output size of merge.
+
+(183.232492) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef ValueTuple::BasicType ValueType;
+extern "C" __global__ void merge_get_result_size90(long long unsigned int* size,long long unsigned int* value_size)
+{
+    ra::cuda::getMergeResultSize<ResultType, ValueType>(size, value_size);
+}
+
+(183.233894) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(184.790259) RelationalAlgebraCompiler.cpp:8542: resize the output size of merge.
+(184.790287) RelationalAlgebraCompiler.cpp:8560: merge.
+(184.790308) RelationalAlgebraKernel.cpp:1727: Getting CUDA source for merge ptx kernel.
+(184.790327) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void set_merge91(ResultType* result, const KeyType* key_begin, const long long unsigned int* key_size, const ValueType* value_begin, const long long unsigned int* value_size)
+{
+    ra::cuda::merge<KeyTuple, ValueTuple, ResultTuple, 2>(result, key_begin, key_begin + (*key_size / sizeof(KeyType)), value_begin, value_begin + (*value_size / sizeof(ValueType)));
+}
+
+(184.791426) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(186.411163) RelationalAlgebraCompiler.cpp:9181:  Goto
+(186.411203) RelationalAlgebraCompiler.cpp:8950: Adding block 6
+(186.411211) RelationalAlgebraCompiler.cpp:9098:  Assign
+(186.411216) RelationalAlgebraCompiler.cpp:9164:   Agg
+(186.411241) RelationalAlgebraCompiler.cpp:7891: total
+(186.411246) RelationalAlgebraCompiler.cpp:7933: get the size of the output
+(186.411270) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size92(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(186.412396) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(187.870916) RelationalAlgebraCompiler.cpp:7969: resize the output
+(187.870941) RelationalAlgebraCompiler.cpp:7987: add the projection
+(187.870962) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(187.870980) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<1, 0, 5, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project93(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(187.872030) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(190.316124) RelationalAlgebraCompiler.cpp:8034: Keep fields 1 0 5 out of 7
+(190.316174) RelationalAlgebraCompiler.cpp:8081: get the output size of split.
+(190.316218) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size94(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(190.317264) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(191.879633) RelationalAlgebraCompiler.cpp:8122: resize the output size of split.
+(191.879658) RelationalAlgebraCompiler.cpp:8160: add split.
+(191.879679) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(191.879698) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split95(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(191.880932) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(193.489486) RelationalAlgebraCompiler.cpp:3437: add sort.
+(193.489521) RelationalAlgebraKernel.cpp:2747: Getting CUDA source for sort ptx kernel.
+(193.489538) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/b40cSort.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_key;
+typedef Tuple_key::BasicType TupleType_key;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_value;
+typedef Tuple_value::BasicType TupleType_value;
+extern "C" void set_b40csortpair96(TupleType_key* key_begin, TupleType_value* value_begin, const long long unsigned int key_size, unsigned long long int key_bits, unsigned long long int value_type)
+{
+    if(key_size != sizeof(TupleType_key))
+    redfox::sort_pair(key_begin, value_begin,(key_size / sizeof(TupleType_key)), key_bits, value_type);
+}
+
+(193.490769) CudaCompilerInterface.cpp:373:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(196.589775) CudaCompilerInterface.cpp:403:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed b40cSort.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(197.437439) RelationalAlgebraCompiler.cpp:8218:  Reduce by Key.
+(197.437479) RelationalAlgebraCompiler.cpp:8226: resize the output size of reduce.
+(197.437491) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(197.437501) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(197.437506) RelationalAlgebraKernel.cpp:2802: Getting CUDA source for reduce ptx kernel.
+(197.437515) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/Reduce.h>
+extern "C" void set_reduce97(unsigned char* result_key_begin, double* result_value_begin, unsigned char* key_begin, unsigned long long int *key_size, double* value_begin, unsigned long long int *value_size)
+{
+    redfox::total_8_double(key_begin,          value_begin, result_key_begin,          result_value_begin, key_size, value_size);
+}
+
+(197.439142) CudaCompilerInterface.cpp:187:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(202.449330) CudaCompilerInterface.cpp:217:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed Reduce.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(203.021321) RelationalAlgebraCompiler.cpp:8500: get the output size of merge.
+
+(203.021385) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef ValueTuple::BasicType ValueType;
+extern "C" __global__ void merge_get_result_size98(long long unsigned int* size,long long unsigned int* value_size)
+{
+    ra::cuda::getMergeResultSize<ResultType, ValueType>(size, value_size);
+}
+
+(203.022849) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(204.637190) RelationalAlgebraCompiler.cpp:8542: resize the output size of merge.
+(204.637223) RelationalAlgebraCompiler.cpp:8560: merge.
+(204.637250) RelationalAlgebraKernel.cpp:1727: Getting CUDA source for merge ptx kernel.
+(204.637277) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void set_merge99(ResultType* result, const KeyType* key_begin, const long long unsigned int* key_size, const ValueType* value_begin, const long long unsigned int* value_size)
+{
+    ra::cuda::merge<KeyTuple, ValueTuple, ResultTuple, 2>(result, key_begin, key_begin + (*key_size / sizeof(KeyType)), value_begin, value_begin + (*value_size / sizeof(ValueType)));
+}
+
+(204.638286) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(206.218841) RelationalAlgebraCompiler.cpp:9181:  Goto
+(206.218863) RelationalAlgebraCompiler.cpp:8950: Adding block 7
+(206.218870) RelationalAlgebraCompiler.cpp:9098:  Assign
+(206.218876) RelationalAlgebraCompiler.cpp:9164:   Agg
+(206.218959) RelationalAlgebraCompiler.cpp:7891: total
+(206.218965) RelationalAlgebraCompiler.cpp:7933: get the size of the output
+(206.218988) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size100(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(206.220361) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(207.950894) RelationalAlgebraCompiler.cpp:7969: resize the output
+(207.950918) RelationalAlgebraCompiler.cpp:7987: add the projection
+(207.950940) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(207.950959) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<1, 0, 6, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project101(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(207.952206) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(210.134130) RelationalAlgebraCompiler.cpp:8034: Keep fields 1 0 6 out of 7
+(210.134189) RelationalAlgebraCompiler.cpp:8081: get the output size of split.
+(210.134230) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size102(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(210.135134) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(211.625294) RelationalAlgebraCompiler.cpp:8122: resize the output size of split.
+(211.625347) RelationalAlgebraCompiler.cpp:8160: add split.
+(211.625376) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(211.625450) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split103(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(211.626464) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(213.165244) RelationalAlgebraCompiler.cpp:3437: add sort.
+(213.165279) RelationalAlgebraKernel.cpp:2747: Getting CUDA source for sort ptx kernel.
+(213.165296) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/b40cSort.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_key;
+typedef Tuple_key::BasicType TupleType_key;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_value;
+typedef Tuple_value::BasicType TupleType_value;
+extern "C" void set_b40csortpair104(TupleType_key* key_begin, TupleType_value* value_begin, const long long unsigned int key_size, unsigned long long int key_bits, unsigned long long int value_type)
+{
+    if(key_size != sizeof(TupleType_key))
+    redfox::sort_pair(key_begin, value_begin,(key_size / sizeof(TupleType_key)), key_bits, value_type);
+}
+
+(213.166732) CudaCompilerInterface.cpp:373:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(216.294336) CudaCompilerInterface.cpp:403:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed b40cSort.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(216.962054) RelationalAlgebraCompiler.cpp:8218:  Reduce by Key.
+(216.962105) RelationalAlgebraCompiler.cpp:8226: resize the output size of reduce.
+(216.962121) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(216.962133) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(216.962140) RelationalAlgebraKernel.cpp:2802: Getting CUDA source for reduce ptx kernel.
+(216.962152) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/Reduce.h>
+extern "C" void set_reduce105(unsigned char* result_key_begin, double* result_value_begin, unsigned char* key_begin, unsigned long long int *key_size, double* value_begin, unsigned long long int *value_size)
+{
+    redfox::total_8_double(key_begin,          value_begin, result_key_begin,          result_value_begin, key_size, value_size);
+}
+
+(216.963406) CudaCompilerInterface.cpp:187:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(222.159680) CudaCompilerInterface.cpp:217:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed Reduce.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(222.755238) RelationalAlgebraCompiler.cpp:8500: get the output size of merge.
+
+(222.755289) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef ValueTuple::BasicType ValueType;
+extern "C" __global__ void merge_get_result_size106(long long unsigned int* size,long long unsigned int* value_size)
+{
+    ra::cuda::getMergeResultSize<ResultType, ValueType>(size, value_size);
+}
+
+(222.756853) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(224.279639) RelationalAlgebraCompiler.cpp:8542: resize the output size of merge.
+(224.279677) RelationalAlgebraCompiler.cpp:8560: merge.
+(224.279698) RelationalAlgebraKernel.cpp:1727: Getting CUDA source for merge ptx kernel.
+(224.279716) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void set_merge107(ResultType* result, const KeyType* key_begin, const long long unsigned int* key_size, const ValueType* value_begin, const long long unsigned int* value_size)
+{
+    ra::cuda::merge<KeyTuple, ValueTuple, ResultTuple, 2>(result, key_begin, key_begin + (*key_size / sizeof(KeyType)), value_begin, value_begin + (*value_size / sizeof(ValueType)));
+}
+
+(224.280789) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(225.901549) RelationalAlgebraCompiler.cpp:9181:  Goto
+(225.901578) RelationalAlgebraCompiler.cpp:8950: Adding block 8
+(225.901586) RelationalAlgebraCompiler.cpp:9098:  Assign
+(225.901591) RelationalAlgebraCompiler.cpp:9164:   Agg
+(225.901612) RelationalAlgebraCompiler.cpp:7883: count
+(225.901618) RelationalAlgebraCompiler.cpp:7933: get the size of the output
+(225.901641) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size108(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(225.902948) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(227.507474) RelationalAlgebraCompiler.cpp:7969: resize the output
+(227.507509) RelationalAlgebraCompiler.cpp:7987: add the projection
+(227.507535) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(227.507562) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<1, 0, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project109(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(227.508604) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(229.646480) RelationalAlgebraCompiler.cpp:8034: Keep fields 1 0 out of 7
+(229.646529) RelationalAlgebraKernel.cpp:2776: Getting CUDA source for sort ptx kernel.
+(229.646543) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/b40cSort.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void set_b40csortkey110(TupleType* key_begin, const long long unsigned int size, unsigned long long int bits)
+{
+    if(size != sizeof(TupleType))
+    redfox::sort_key(key_begin,(size / sizeof(TupleType)), bits);
+}
+
+(229.647512) CudaCompilerInterface.cpp:373:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(233.031964) CudaCompilerInterface.cpp:403:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed b40cSort.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(233.695820) RelationalAlgebraCompiler.cpp:8316: get the output size of generate.
+(233.695857) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void generate_get_result_size111(long long unsigned int* generate_size, long long unsigned int *size)
+{
+    ra::cuda::getGenerateResultSize<SourceTuple>(generate_size, size);
+}
+
+(233.698363) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(235.247663) RelationalAlgebraCompiler.cpp:8374: add generate.
+(235.247707) RelationalAlgebraKernel.cpp:1667: Getting CUDA source for project ptx kernel.
+(235.247718) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+extern "C" __global__ void set_generate112(unsigned int* begin, const long long unsigned int* size)
+{
+    ra::cuda::generate(begin, begin + (*size / sizeof(unsigned int)));
+}
+
+(235.248893) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(236.790585) RelationalAlgebraCompiler.cpp:8411:  Reduce by Key.
+(236.790627) RelationalAlgebraCompiler.cpp:8419: resize the output size of reduce.
+(236.790649) RelationalAlgebraKernel.cpp:2972: Getting CUDA source for count ptx kernel.
+(236.790661) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/Reduce.h>
+extern "C" void set_count113(unsigned char* result_key_begin, unsigned int* result_value_begin, unsigned char* key_begin, unsigned long long int *key_size, unsigned int* value_begin, unsigned long long int *value_size)
+{
+    redfox::count_8(key_begin,     value_begin, result_key_begin,     result_value_begin, key_size, value_size);
+}
+
+(236.791639) CudaCompilerInterface.cpp:187:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(241.789661) CudaCompilerInterface.cpp:217:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed Reduce.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(242.476015) RelationalAlgebraCompiler.cpp:8500: get the output size of merge.
+
+(242.476074) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef ValueTuple::BasicType ValueType;
+extern "C" __global__ void merge_get_result_size114(long long unsigned int* size,long long unsigned int* value_size)
+{
+    ra::cuda::getMergeResultSize<ResultType, ValueType>(size, value_size);
+}
+
+(242.477252) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(244.080163) RelationalAlgebraCompiler.cpp:8542: resize the output size of merge.
+(244.080195) RelationalAlgebraCompiler.cpp:8560: merge.
+(244.080217) RelationalAlgebraKernel.cpp:1727: Getting CUDA source for merge ptx kernel.
+(244.080237) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void set_merge115(ResultType* result, const KeyType* key_begin, const long long unsigned int* key_size, const ValueType* value_begin, const long long unsigned int* value_size)
+{
+    ra::cuda::merge<KeyTuple, ValueTuple, ResultTuple, 2>(result, key_begin, key_begin + (*key_size / sizeof(KeyType)), value_begin, value_begin + (*value_size / sizeof(ValueType)));
+}
+
+(244.081143) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(245.680532) RelationalAlgebraCompiler.cpp:9181:  Goto
+(245.680562) RelationalAlgebraCompiler.cpp:8950: Adding block 9
+(245.680569) RelationalAlgebraCompiler.cpp:9098:  Assign
+(245.680574) RelationalAlgebraCompiler.cpp:9164:   Agg
+(245.680596) RelationalAlgebraCompiler.cpp:7891: total
+(245.680602) RelationalAlgebraCompiler.cpp:7933: get the size of the output
+(245.680625) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size116(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(245.681443) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(247.215674) RelationalAlgebraCompiler.cpp:7969: resize the output
+(247.215697) RelationalAlgebraCompiler.cpp:7987: add the projection
+(247.215719) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(247.215737) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<1, 2, 64, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<1, 0, 4, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project117(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(247.216877) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(249.444561) RelationalAlgebraCompiler.cpp:8034: Keep fields 1 0 4 out of 7
+(249.444611) RelationalAlgebraCompiler.cpp:8081: get the output size of split.
+(249.444651) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size118(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(249.445786) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(250.918825) RelationalAlgebraCompiler.cpp:8122: resize the output size of split.
+(250.918851) RelationalAlgebraCompiler.cpp:8160: add split.
+(250.918873) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(250.918892) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split119(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(250.919936) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(252.509203) RelationalAlgebraCompiler.cpp:3437: add sort.
+(252.509239) RelationalAlgebraKernel.cpp:2747: Getting CUDA source for sort ptx kernel.
+(252.509256) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/b40cSort.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_key;
+typedef Tuple_key::BasicType TupleType_key;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple_value;
+typedef Tuple_value::BasicType TupleType_value;
+extern "C" void set_b40csortpair120(TupleType_key* key_begin, TupleType_value* value_begin, const long long unsigned int key_size, unsigned long long int key_bits, unsigned long long int value_type)
+{
+    if(key_size != sizeof(TupleType_key))
+    redfox::sort_pair(key_begin, value_begin,(key_size / sizeof(TupleType_key)), key_bits, value_type);
+}
+
+(252.510250) CudaCompilerInterface.cpp:373:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(255.649768) CudaCompilerInterface.cpp:403:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed b40cSort.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(256.268352) RelationalAlgebraCompiler.cpp:8218:  Reduce by Key.
+(256.268400) RelationalAlgebraCompiler.cpp:8226: resize the output size of reduce.
+(256.268417) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(256.268432) RelationalAlgebraCompiler.cpp:414:  mapReduction.
+(256.268440) RelationalAlgebraKernel.cpp:2802: Getting CUDA source for reduce ptx kernel.
+(256.268454) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/Reduce.h>
+extern "C" void set_reduce121(unsigned char* result_key_begin, double* result_value_begin, unsigned char* key_begin, unsigned long long int *key_size, double* value_begin, unsigned long long int *value_size)
+{
+    redfox::total_8_double(key_begin,          value_begin, result_key_begin,          result_value_begin, key_size, value_size);
+}
+
+(256.269797) CudaCompilerInterface.cpp:187:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(261.550940) CudaCompilerInterface.cpp:217:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed Reduce.o RedFox.tmp.o -gencode arch=compute_35,code=sm_35'
+(262.303035) RelationalAlgebraCompiler.cpp:8500: get the output size of merge.
+
+(262.303091) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef ValueTuple::BasicType ValueType;
+extern "C" __global__ void merge_get_result_size122(long long unsigned int* size,long long unsigned int* value_size)
+{
+    ra::cuda::getMergeResultSize<ResultType, ValueType>(size, value_size);
+}
+
+(262.304481) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(263.812035) RelationalAlgebraCompiler.cpp:8542: resize the output size of merge.
+(263.812066) RelationalAlgebraCompiler.cpp:8560: merge.
+(263.812094) RelationalAlgebraKernel.cpp:1727: Getting CUDA source for merge ptx kernel.
+(263.812115) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef ResultTuple::BasicType ResultType;
+extern "C" __global__ void set_merge123(ResultType* result, const KeyType* key_begin, const long long unsigned int* key_size, const ValueType* value_begin, const long long unsigned int* value_size)
+{
+    ra::cuda::merge<KeyTuple, ValueTuple, ResultTuple, 2>(result, key_begin, key_begin + (*key_size / sizeof(KeyType)), value_begin, value_begin + (*value_size / sizeof(ValueType)));
+}
+
+(263.813114) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(265.647192) RelationalAlgebraCompiler.cpp:9181:  Goto
+(265.647222) RelationalAlgebraCompiler.cpp:8950: Adding block 4
+(265.647233) RelationalAlgebraCompiler.cpp:9098:  Assign
+(265.647241) RelationalAlgebraCompiler.cpp:9137:   Join
+(265.647253) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(265.647261) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(265.647268) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(265.647276) RelationalAlgebraCompiler.cpp:6812: check reordering 3
+(265.647292) RelationalAlgebraCompiler.cpp:4450:    destination: j_16_join (221)
+(265.647301) RelationalAlgebraCompiler.cpp:4452:    srcA: +$logicQ1:_sum_qty (10)
+(265.647309) RelationalAlgebraCompiler.cpp:4454:    srcB: +$logicQ1:_count_order (4)
+(265.647357) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(265.647387) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size124(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(265.648365) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(267.196731) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(267.196761) RelationalAlgebraCompiler.cpp:4635: add split.
+(267.196773) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(267.196795) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split125(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(267.197932) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(268.813359) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(268.813413) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size126(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(268.814639) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(270.379893) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(270.379920) RelationalAlgebraCompiler.cpp:4761: add split.
+(270.379933) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(270.379953) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split127(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(270.381131) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(271.960641) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(271.960672) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size128(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(271.961741) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(273.451791) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(273.451822) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(273.451836) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds129(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_8(lower_bound, left_count,result_size, left_key, left_size, right_key, right_size);
+}
+
+(273.452977) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(276.543856) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(276.905557) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(276.905601) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 64, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size130(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(276.907094) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(278.302473) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(278.302499) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(278.302507) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main131(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(278.303661) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(281.265729) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(281.503739) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(281.503777) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<2, 1, 64, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather132(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(281.505230) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(282.930506) RelationalAlgebraCompiler.cpp:6974:       Arith
+(282.930535) RelationalAlgebraCompiler.cpp:7032: source j_16_join 4
+(282.930551) RelationalAlgebraCompiler.cpp:7070: dest after initial 4 239 j_16_join_arith04
+(282.930557) RelationalAlgebraCompiler.cpp:7153: dest after push back 5
+(282.930587) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void arith_get_result_size133(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(282.931678) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(284.590781) RelationalAlgebraCompiler.cpp:666:  starting translating arith 3
+(284.590808) RelationalAlgebraCompiler.cpp:724:  mapping the root operator
+(284.590818) RelationalAlgebraCompiler.cpp:557:  /
+(284.590832) RelationalAlgebraCompiler.cpp:651:  index offset 2
+(284.590845) RelationalAlgebraCompiler.cpp:651:  index offset 3
+(284.590864) RelationalAlgebraKernel.cpp:2003: Getting CUDA source for arithmetic ptx kernel.
+(284.590891) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(284.590906) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(284.590925) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 64, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_arith134(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+	unsigned int step     = gridDim.x * blockDim.x;
+	unsigned int start    = threadIdx.x + blockIdx.x * blockDim.x;
+	unsigned int elements = (*size)/sizeof(ResultType);
+	for(unsigned int i = start; i < elements; i += step)
+	{
+	    if(i < elements)
+           {
+		    	ResultType tmp1 = (ResultType)begin[i] << (unsigned int)64;
+		        double tmp2 = (ra::tuple::extract_double<2, SourceTuple>(begin[i]) / ra::tuple::extract<unsigned int, 3, SourceTuple>(begin[i]));
+		    	result[i] = ra::tuple::insert_double<4, ResultTuple>(tmp1, tmp2);
+           }
+	}
+}
+
+(284.592214) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(286.235699) RelationalAlgebraCompiler.cpp:5339: Projection
+(286.235727) RelationalAlgebraCompiler.cpp:5341:    destination: j_16 (25 2)
+(286.235738) RelationalAlgebraCompiler.cpp:5343:    srcA: j_16_join_arith04 (239 2)
+(286.235752) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 3 4 out of 5
+(286.235799) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size135(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(286.236720) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(287.839402) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(287.839431) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 3, 4, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project136(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(287.840468) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(290.290984) RelationalAlgebraCompiler.cpp:9098:  Assign
+(290.291008) RelationalAlgebraCompiler.cpp:9137:   Join
+(290.291022) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(290.291030) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(290.291038) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(290.291045) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(290.291053) RelationalAlgebraCompiler.cpp:6812: check reordering 3
+(290.291071) RelationalAlgebraCompiler.cpp:4450:    destination: j_17_join (242)
+(290.291080) RelationalAlgebraCompiler.cpp:4452:    srcA: j_16 (25)
+(290.291087) RelationalAlgebraCompiler.cpp:4454:    srcB: +$logicQ1:_sum_base_price (7)
+(290.291139) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(290.291170) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size137(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(290.292094) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(291.887340) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(291.887372) RelationalAlgebraCompiler.cpp:4635: add split.
+(291.887384) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(291.887404) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split138(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(291.888647) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(293.431888) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(293.431940) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size139(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(293.433174) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(294.945698) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(294.945725) RelationalAlgebraCompiler.cpp:4761: add split.
+(294.945738) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(294.945759) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split140(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(294.947037) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(296.591255) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(296.591292) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size141(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(296.592334) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(298.113623) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(298.113651) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(298.113665) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds142(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_8(lower_bound, left_count,result_size, left_key, left_size, right_key, right_size);
+}
+
+(298.114870) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(301.430380) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(301.804254) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(301.804297) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size143(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(301.806073) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(303.139950) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(303.139983) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(303.139996) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main144(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(303.141201) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(306.047040) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(306.285809) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(306.285847) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<32, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather145(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(306.287633) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(307.697878) RelationalAlgebraCompiler.cpp:6974:       Arith
+(307.697908) RelationalAlgebraCompiler.cpp:7032: source j_17_join 5
+(307.697927) RelationalAlgebraCompiler.cpp:7070: dest after initial 5 260 j_17_join_arith05
+(307.697937) RelationalAlgebraCompiler.cpp:7153: dest after push back 6
+(307.697977) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void arith_get_result_size146(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(307.699171) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(309.221629) RelationalAlgebraCompiler.cpp:666:  starting translating arith 3
+(309.221655) RelationalAlgebraCompiler.cpp:724:  mapping the root operator
+(309.221663) RelationalAlgebraCompiler.cpp:557:  /
+(309.221678) RelationalAlgebraCompiler.cpp:651:  index offset 4
+(309.221690) RelationalAlgebraCompiler.cpp:651:  index offset 2
+(309.221705) RelationalAlgebraKernel.cpp:2003: Getting CUDA source for arithmetic ptx kernel.
+(309.221730) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(309.221739) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(309.221755) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_arith147(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+	unsigned int step     = gridDim.x * blockDim.x;
+	unsigned int start    = threadIdx.x + blockIdx.x * blockDim.x;
+	unsigned int elements = (*size)/sizeof(ResultType);
+	for(unsigned int i = start; i < elements; i += step)
+	{
+	    if(i < elements)
+           {
+		    	ResultType tmp1 = (ResultType)begin[i] << (unsigned int)64;
+		        double tmp2 = (ra::tuple::extract_double<4, SourceTuple>(begin[i]) / ra::tuple::extract<unsigned int, 2, SourceTuple>(begin[i]));
+		    	result[i] = ra::tuple::insert_double<5, ResultTuple>(tmp1, tmp2);
+           }
+	}
+}
+
+(309.223105) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(310.713957) RelationalAlgebraCompiler.cpp:5339: Projection
+(310.713983) RelationalAlgebraCompiler.cpp:5341:    destination: j_17 (26 2)
+(310.713992) RelationalAlgebraCompiler.cpp:5343:    srcA: j_17_join_arith05 (260 2)
+(310.714006) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 2 3 5 out of 6
+(310.714051) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size148(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(310.715277) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(312.336910) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(312.336951) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 2, 3, 5, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project149(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(312.339973) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(315.019147) RelationalAlgebraCompiler.cpp:9098:  Assign
+(315.019165) RelationalAlgebraCompiler.cpp:9137:   Join
+(315.019175) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(315.019188) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(315.019194) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(315.019202) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(315.019210) RelationalAlgebraCompiler.cpp:6812: check reordering 3
+(315.019228) RelationalAlgebraCompiler.cpp:4450:    destination: temp_2_join (263)
+(315.019233) RelationalAlgebraCompiler.cpp:4452:    srcA: j_17 (26)
+(315.019239) RelationalAlgebraCompiler.cpp:4454:    srcB: +$logicQ1:_avg_disc_adt (1)
+(315.019277) RelationalAlgebraCompiler.cpp:4560: get the output size of split.
+(315.019299) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size150(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(315.020160) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(316.541171) RelationalAlgebraCompiler.cpp:4598: resize the output size of split.
+(316.541210) RelationalAlgebraCompiler.cpp:4635: add split.
+(316.541228) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(316.541256) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split151(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(316.542506) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(318.095671) RelationalAlgebraCompiler.cpp:4686: get the output size of split.
+(318.095708) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+extern "C" __global__ void split_get_result_size152(long long unsigned int* size, long long unsigned int* key_size,long long unsigned int* value_size)
+{
+    ra::cuda::getSplitResultSize<KeyTuple, ValueTuple, SourceTuple>(size, key_size, value_size);
+}
+
+(318.096651) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(319.555465) RelationalAlgebraCompiler.cpp:4724: resize the output size of split.
+(319.555501) RelationalAlgebraCompiler.cpp:4761: add split.
+(319.555516) RelationalAlgebraKernel.cpp:1597: Getting CUDA source for project ptx kernel.
+(319.555546) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Split_Merge.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> KeyTuple;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ValueTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef KeyTuple::BasicType KeyType;
+typedef ValueTuple::BasicType ValueType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_split153(KeyType* key, ValueType* value, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::split<KeyTuple, ValueTuple, SourceTuple, 2>(key, value, begin, begin + (*size / sizeof(SourceType)));
+}
+
+(319.556563) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(321.140682) RelationalAlgebraKernel.cpp:1082: Getting CUDA source for the join temp size ptx kernel.
+(321.140713) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType LeftType;
+extern "C" __global__ void join_get_temp_size154(unsigned long long int* lowerBoundSize,const unsigned long long int* leftSize)
+{
+    *lowerBoundSize = (*leftSize)/sizeof(LeftType) * 4;
+}
+
+(321.141813) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(322.542874) RelationalAlgebraCompiler.cpp:4904: add join find bounds.
+(322.542908) RelationalAlgebraKernel.cpp:1212: Getting CUDA source for sort ptx kernel.
+(322.542922) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType TupleType;
+extern "C" void mgpu_join_find_bounds155(int* lower_bound, int* left_count, unsigned long long int* result_size, TupleType *left_key, unsigned long long int left_size,TupleType *right_key, unsigned long long int right_size)
+{
+    redfox::find_bounds_8(lower_bound, left_count,result_size, left_key, left_size, right_key, right_size);
+}
+
+(322.544241) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(325.757420) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(326.076340) RelationalAlgebraKernel.cpp:1190: Getting CUDA source for the join temp size ptx kernel.
+(326.076386) RelationalAlgebraCompiler.cpp:119:  Compiling source: #define PARTITIONS 1
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0>::BasicType Type;
+extern "C" __global__ void join_get_result_size156(unsigned long long int* index_size,unsigned long long int* result_size)
+{
+    *index_size = (*result_size) * 4;
+    *result_size = (*result_size) * sizeof(Type);
+}
+
+(326.077691) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(327.572125) RelationalAlgebraCompiler.cpp:5027: add join main kernel
+(327.572159) RelationalAlgebraKernel.cpp:1379: Getting CUDA source for sort ptx kernel.
+(327.572172) RelationalAlgebraCompiler.cpp:127:  Compiling source: #include <redfox/ra/interface/ModernGPUJoin.h>
+#include <stdio.h>
+extern "C" void mgpu_join_main157(int *left_indices,int* right_indices, unsigned long long int result_size, int *lowerBound, int* leftCount,unsigned long long int input_size)
+{
+    redfox::join(left_indices, right_indices, result_size/4,lowerBound, leftCount, input_size/4);
+}
+
+(327.573436) CudaCompilerInterface.cpp:280:  Invoking NVCC with command 'nvcc -c -o RedFox.tmp.o -Xcompiler=-fPIC RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(330.614156) CudaCompilerInterface.cpp:310:  Invoking NVCC with command 'nvcc -shared -o RedFox.tmp.so -Xlinker=--no-as-needed ModernGPUJoin.o RedFox.tmp.o format.o random.o mgpucontext.o -gencode arch=compute_35,code=sm_35'
+(330.827079) RelationalAlgebraKernel.cpp:1103: Getting CUDA source for the join temp size ptx kernel.
+(330.827132) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Tuple.h>
+#include <redfox/ra/interface/ModernGPUJoin.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> Tuple;
+typedef Tuple::BasicType Type;
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftKeyTuple;
+typedef LeftKeyTuple::BasicType LeftKeyType;
+typedef ra::tuple::Tuple<32, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> LeftValueTuple;
+typedef LeftValueTuple::BasicType LeftValueType;
+typedef ra::tuple::Tuple<2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightKeyTuple;
+typedef RightKeyTuple::BasicType RightKeyType;
+typedef ra::tuple::Tuple<64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> RightValueTuple;
+typedef RightValueTuple::BasicType RightValueType;
+extern "C" __global__ void mgpu_join_gather158(Type* result, LeftKeyType *left_key, int* left_index, RightKeyType *right_key, int* right_index,unsigned long long int* size, LeftValueType *left_value, RightValueType *right_value)
+{
+    redfox::gather_value_value<Tuple, LeftKeyTuple, LeftValueTuple, RightValueTuple, 256, 2>(result, left_key, left_value, left_index, right_value, right_index, (*size/4));
+}
+
+(330.828936) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(332.284257) RelationalAlgebraCompiler.cpp:6974:       Arith
+(332.284287) RelationalAlgebraCompiler.cpp:7032: source temp_2_join 6
+(332.284307) RelationalAlgebraCompiler.cpp:7070: dest after initial 6 281 temp_2_join_arith06
+(332.284316) RelationalAlgebraCompiler.cpp:7153: dest after push back 7
+(332.284359) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void arith_get_result_size159(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(332.285438) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(333.744404) RelationalAlgebraCompiler.cpp:666:  starting translating arith 3
+(333.744423) RelationalAlgebraCompiler.cpp:724:  mapping the root operator
+(333.744429) RelationalAlgebraCompiler.cpp:557:  /
+(333.744438) RelationalAlgebraCompiler.cpp:651:  index offset 5
+(333.744446) RelationalAlgebraCompiler.cpp:651:  index offset 2
+(333.744457) RelationalAlgebraKernel.cpp:2003: Getting CUDA source for arithmetic ptx kernel.
+(333.744472) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(333.744478) RelationalAlgebraKernel.cpp:1875: ###### IndexNode
+(333.744494) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <stdio.h>
+#include <redfox/ra/interface/Tuple.h>
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_arith160(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+	unsigned int step     = gridDim.x * blockDim.x;
+	unsigned int start    = threadIdx.x + blockIdx.x * blockDim.x;
+	unsigned int elements = (*size)/sizeof(ResultType);
+	for(unsigned int i = start; i < elements; i += step)
+	{
+	    if(i < elements)
+           {
+		    	ResultType tmp1 = (ResultType)begin[i] << (unsigned int)64;
+		        double tmp2 = (ra::tuple::extract_double<5, SourceTuple>(begin[i]) / ra::tuple::extract<unsigned int, 2, SourceTuple>(begin[i]));
+		    	result[i] = ra::tuple::insert_double<6, ResultTuple>(tmp1, tmp2);
+           }
+	}
+}
+
+(333.745833) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(335.664860) RelationalAlgebraCompiler.cpp:5339: Projection
+(335.664888) RelationalAlgebraCompiler.cpp:5341:    destination: temp_2 (41 2)
+(335.664896) RelationalAlgebraCompiler.cpp:5343:    srcA: temp_2_join_arith06 (281 2)
+(335.664908) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 3 4 6 out of 7
+(335.664952) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size161(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(335.666037) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(337.179758) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(337.179797) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 32, 64, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 3, 4, 6, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project162(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(337.180911) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(339.439401) RelationalAlgebraCompiler.cpp:9181:  Goto
+(339.439432) RelationalAlgebraCompiler.cpp:8950: Adding block 10
+(339.439444) RelationalAlgebraCompiler.cpp:9098:  Assign
+(339.439455) RelationalAlgebraCompiler.cpp:9157:   MapFilter
+(339.439469) RelationalAlgebraCompiler.cpp:7206: start finding compare...
+(339.439479) RelationalAlgebraCompiler.cpp:7284: hasSelect? 0
+(339.439491) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(339.439499) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(339.439507) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(339.439518) RelationalAlgebraCompiler.cpp:5339: Projection
+(339.439528) RelationalAlgebraCompiler.cpp:5341:    destination: +$logicQ1:_avg_qty (3 2)
+(339.439537) RelationalAlgebraCompiler.cpp:5343:    srcA: temp_2 (41 2)
+(339.439552) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 2 out of 5
+(339.439627) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size163(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(339.440540) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(341.055934) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(341.055968) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 2, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project164(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(341.057019) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(343.296073) RelationalAlgebraCompiler.cpp:9181:  Goto
+(343.296099) RelationalAlgebraCompiler.cpp:8950: Adding block 11
+(343.296106) RelationalAlgebraCompiler.cpp:9098:  Assign
+(343.296112) RelationalAlgebraCompiler.cpp:9157:   MapFilter
+(343.296119) RelationalAlgebraCompiler.cpp:7206: start finding compare...
+(343.296125) RelationalAlgebraCompiler.cpp:7284: hasSelect? 0
+(343.296131) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(343.296137) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(343.296141) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(343.296148) RelationalAlgebraCompiler.cpp:5339: Projection
+(343.296153) RelationalAlgebraCompiler.cpp:5341:    destination: +$logicQ1:_avg_price (2 2)
+(343.296158) RelationalAlgebraCompiler.cpp:5343:    srcA: temp_2 (41 2)
+(343.296166) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 3 out of 5
+(343.296203) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size165(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(343.297256) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(344.866046) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(344.866087) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 3, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project166(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(344.867345) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(346.992041) RelationalAlgebraCompiler.cpp:9181:  Goto
+(346.992069) RelationalAlgebraCompiler.cpp:8950: Adding block 12
+(346.992079) RelationalAlgebraCompiler.cpp:9098:  Assign
+(346.992088) RelationalAlgebraCompiler.cpp:9157:   MapFilter
+(346.992097) RelationalAlgebraCompiler.cpp:7206: start finding compare...
+(346.992105) RelationalAlgebraCompiler.cpp:7284: hasSelect? 0
+(346.992115) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(346.992123) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(346.992130) RelationalAlgebraCompiler.cpp:6812: check reordering 1
+(346.992140) RelationalAlgebraCompiler.cpp:5339: Projection
+(346.992148) RelationalAlgebraCompiler.cpp:5341:    destination: +$logicQ1:_avg_disc (0 2)
+(346.992156) RelationalAlgebraCompiler.cpp:5343:    srcA: temp_2 (41 2)
+(346.992168) RelationalAlgebraCompiler.cpp:5419: Keep fields 0 1 4 out of 5
+(346.992216) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void project_get_result_size167(long long unsigned int* size)
+{
+    ra::cuda::getResultSize<ResultType, SourceType>(size);
+}
+
+(346.993964) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(348.520291) RelationalAlgebraKernel.cpp:1472: Getting CUDA source for project ptx kernel.
+(348.520324) RelationalAlgebraCompiler.cpp:119:  Compiling source: #include <redfox/ra/interface/Project.h>
+typedef ra::tuple::Tuple<2, 1, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> ResultTuple;
+typedef ra::tuple::Tuple<2, 1, 64, 64, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0> SourceTuple;
+typedef ra::cuda::PermuteMap<0, 1, 4, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100> PermuteMap;
+typedef ResultTuple::BasicType ResultType;
+typedef SourceTuple::BasicType SourceType;
+extern "C" __global__ void set_project168(ResultType* result, const SourceType* begin, const long long unsigned int* size)
+{
+    ra::cuda::permute<ResultTuple, SourceTuple, PermuteMap>(result, begin, begin + (*size / sizeof(ResultType)));
+}
+
+(348.521564) CudaCompilerInterface.cpp:131:  Invoking NVCC with command 'nvcc --ptx -o RedFox.tmp.ptx RedFox.tmp.cu -gencode arch=compute_35,code=sm_35 -I.'
+(350.711806) RelationalAlgebraCompiler.cpp:9181:  Goto
+(350.711835) RelationalAlgebraCompiler.cpp:8950: Adding block 1
+(350.711846) RelationalAlgebraCompiler.cpp:9194:  Exit

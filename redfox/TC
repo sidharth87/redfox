@@ -1,0 +1,3 @@
+n(x) <- e(x,_) ; e(_,x).
+tc(x,y) <- e(x,y).
+tc(x,y) <- e(x,z), tc(z,y).

@@ -1,0 +1,454 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// File:   relational_algebra.proto
+// Author: Gregory Diamos <gregory.diamos@gatech.edu>
+//         Revised by Tim Sheard, Wed July, 28, 2010
+//         Revised again by Tim Sheard, Thursday, Aug 12, 2010
+//         Revised again by Tim Sheard, June 6, 2012,  SEE XXX for differences
+// Date:   Sunday July 25th, 2010
+// Brief:  The google protocol buffer
+//
+// This file represents protocol buffer descriptions for the GPU machine
+// this includes datatypes from HLB/HandWrittenCode/RelAlg.hs
+//                              LIB/HandWrittenCode/GPU.hs
+//
+////////////////////////////////////////////////////////////////////////////////
+
+package blox.compiler.gpu;
+
+option java_package = "com.logicblox.common.protocol";
+option java_outer_classname = "CommonProto";
+option optimize_for = SPEED;
+
+
+import "BloxCompiler.proto";
+ 
+// A program is represented as a graph of sequences of RA operators
+// and variables that they operate on
+
+message GPUGraph
+{
+	required string      graphName = 1; // Program Name
+	repeated GPUVariable variables = 2; // Set of variables used in the program
+	repeated GPUSequence sequences = 3; // Each Sequence represents a basic block
+	required int32       entry     = 4; // Program entry point
+	required int32       exit      = 5; // Program exit point
+}  
+
+
+
+
+// *********************** GPUVariable ****************************
+// A variable includes a unique key-space and associated data space
+message GPUVariable {
+        required string  varName     = 1; // Unique identifier
+        repeated blox.common.protocol.Type   keys = 2;  // types of each key column of the predicate
+	repeated blox.common.protocol.Type   fields  = 3; // types of each other column of the predicate
+	required bytes   initialData = 4; // Initial value(s) for the variable
+}
+
+
+
+// ************************* GPUOperator ********************
+// There is a node type for each relational algebra operation
+// and each control operation.
+
+enum OperatorTag {
+  // Set based operators
+  UNION        = 2;  // Set union, fields from both have identical types
+  INTERSECTION = 3;  // Set intersection, fields from both have identical types
+  PRODUCT      = 4;  // Cross product, result has all the fields from both inputs
+  SINGLE       = 5;  // A set with one element
+
+  // Keyed operators
+  DIFFERENCE   = 6;  // Keyed difference, A-B is tuples from A only if keys from A are not keys in B
+  JOIN         = 7;  // Keyed product, a kind of intersection with field expansion like a product
+  
+  // Conditional operators
+//  PROJECTION   = 8;  // Remove some fields from all tuples   XXX NOW OBSOLETE
+//  SELECT       = 9;  // Filter, keep only some tuples        XXX NOW OBSOLETE
+  MAPFILTER    = 10;   // Combination of SELECT and PROJECTION, and adds arithmetic
+  AGG          = 11;   // Aggregation like Count, Total, Min, and Max
+}
+
+message GPUUnion
+{	required string srcA = 2; // Source variable
+	required string srcB = 3; // Source variable	
+}
+
+//  x = {(3,a),(4,a),(2,b)}, y = {(0,a),(2,b),(3,c)}
+//  union x y  -->  {(3,a),(4,a),(2,b),(0,a),(3,c)}
+
+message GPUIntersection
+{	required string srcA = 2; // Source variable
+	required string srcB = 3; // Source variable	
+}
+
+//  x = {(3,a),(4,a),(2,b)}, y = {(0,a),(2,b),(3,c)}
+//  intersection x y  -->  {(2,b)}
+
+
+message GPUProduct
+{	required string srcA = 2; // Source variable
+	required string srcB = 3; // Source variable	
+}
+
+//  x = {(3,a),(4,a)}, y = {(True,2),(False,9)}
+//  intersection x y  -->  {(3,a,True,2),(4,a,True,2),(3,a,False,9),(4,a,False,9)}
+
+message GPUSingle
+{       repeated blox.common.protocol.Constant element = 1;  // A list of constants that make up the one tuple in the Set
+}
+
+message GPUDifference
+{	// required int32  keyCount  = 2; // The first keyCountD fields are keys  XXX FIELD HAS BEEN REMOVED
+	required string srcA      = 3; // Source variable
+	required string srcB      = 4; // Source variable
+}
+
+// XXX this explanation is now OBSOLETE
+//  x = {(3,a),(4,a),(2,b)}, y = {(4,a),(3,c)}
+//  difference 1 x y  -->  {(2,b)},  because the first field is the key, and the key "2" does not appear in y
+
+//  x = {(3,True,a),(4,True,a),(2,False,b)}, y = {(0,False,a),(3,True,c)}
+//  difference 2 x y  -->  {(4,True,a),(2,False,b)},  
+// because the first 2 fields are the key, and the keys (4,True) and (2,False) do not appear in y
+
+
+
+message GPUJoin
+{	required int32  keyCount = 2; // The first keyCountJ fields are keys
+	required string srcA     = 3; // Source variable
+	required string srcB     = 4; // Source variable
+	repeated Exp    args     = 5; // reordering
+}
+
+//  x = {(3,a),(4,a),(2,b)}, y = {(0,a),(2,f),(3,c)}
+//  join 1 x y  -->  {(3,a,3,c),(2,b,2,f)}, sort of like an intersection on the key and a cross product
+
+// XXX Projection and selection have been replaced by MAPFILTER
+//message GPUProjection
+//{	repeated int32  keepFields     = 2; // Keep only the fields listed
+// 	required string srcA           = 3; // Source variable
+//}
+
+//  x = {(3,True,a),(4,True,a),(2,False,b),(3,False,a)},  
+//  project [0,2] x --> {(3,a),(4,a),(2,b)}, note the duplicate arsing from (3,False,a) and (3,True,a) is elided
+
+//message GPUSelect
+//{	repeated GPUCompare pred = 2; // How to decide what tuples to select
+//	required string     srcA = 3; // Source variable
+//}
+
+//  x = {(3,True,a),(4,True,a),(2,False,b),(3,False,a)},  
+//  select [~field.1,field.0==2] x --> {(2,False,b)}
+
+// XXX GPUAgg and GPUMapFilter are new
+
+message GPUMapFilter
+{   required int32 srcWidth = 2;        // Width of underlying set
+    required Compare predicate = 3;     // Boolean operator
+    repeated Exp reordering = 4;        // Expreesions computing the new resulting columns
+    required string srcA = 5;           // Name of the relation to be map/filtered
+}    
+
+
+message GPUAgg
+{   required int32 srcWidth = 2;  // Width of underlying set to be aggregated
+    repeated int32 domains  = 3;  // Indexes of columns that make up the key of the sort (or group)
+    repeated Agg   range = 4;     // how to compute the new (range) columns as aggregates
+    required string srcA = 5;     // the name of the relation to be aggregated over
+}
+
+
+// A union of all node types
+message GPUOperator
+{
+	required OperatorTag tag = 1;  // Tagged sum, only one of the optional fields should exist 
+                                       // in each node, and it should correspond to the value of the tag
+	optional GPUUnion unionop = 2;
+	optional GPUIntersection intersection = 3;
+	optional GPUProduct product = 4;
+	optional GPUSingle single = 5;
+	optional GPUDifference difference = 6;
+	optional GPUJoin join = 7;
+//	optional GPUProjection projection = 8;
+//	optional GPUSelect select = 9;
+	optional GPUMapFilter mapfilter =10;
+	optional GPUAgg agg =11;
+}
+
+// ************************* GPUCommand ****************************
+
+
+enum CommandTag {
+  ASSIGN = 2;   // var := operation
+  COND   = 3;   // if var == var then goto label else goto label
+  GOTO   = 4;   // goto label
+  MOVE   = 5;   // var := var
+  HALT   = 6;   // halt
+}  
+  
+
+message GPUAssign
+{	required string dest          = 1; // Variable to store the result in
+	required GPUOperator op = 2; // operation to compute result
+}
+
+message GPUCond
+{	required string src1  = 1; // First variable to compare
+	required string src2  = 2; // Second variable to compare
+	required int32  yes   = 3; // Label to jump to if equal	
+	required int32  no    = 4; // Label to jump to if not equal		
+}
+
+message GPUGoto
+{	required int32 target = 1; // Jump to this label 
+}
+
+message GPUMove
+{	required string dest  = 1; // variable to be overwritten
+	required string src1  = 2; // source of new value
+}
+
+	
+message GPUCommand
+{	required CommandTag tag = 1;  // Tagged sum, only one of the optional fields should exist 
+	                              // in each node, and it should correspond to the value of the tag	
+	optional GPUAssign assign = 2;
+	optional GPUCond   cond   = 3;
+	optional GPUGoto   jump   = 4;
+	optional GPUMove   move   = 5;
+	optional int32     halt   = 6;
+}
+
+
+
+
+// ************************* GPUCompare ****************************
+// Selection requires answering yes or no for each tuple. A GPUCompare is 
+// boolean valued expression over tuples. It consists of constants (0,3.4, etc),
+// field positions (field.1, field.2, etc.), and numeric comparisons like =, <, >= etc.
+
+enum Comparison {
+	Eq = 0;         // =
+	Ne = 1;         // !=
+	Lt = 2;         // <
+	Le = 3;         // <=
+	Gt = 4;         // >
+	Ge = 5;         // >=
+}
+
+enum AddressTag {
+	VARADDR   = 2;
+	CONSTADDR = 3;
+}
+
+message Address 
+{	required AddressTag tag     = 1;  // Tagged sum, only one of the optional fields should exist
+        optional int32    varaddr   = 2;
+        optional blox.common.protocol.Constant constaddr = 3; }        
+
+message GPUCompare {
+	required Comparison comparison = 1 ;
+	required blox.common.protocol.PrimitiveType optype     = 2;
+	required Address       addr1      = 3;
+	required Address       addr2      = 4;
+}	
+
+
+// *************************** GPUSequence ***********************
+// An in-order series of operators to execute
+message GPUSequence
+{	required int32       uniqueIdentifier = 1; // Identifier for this sequence
+	repeated GPUCommand  operators        = 2; // A list of operators in-order
+}
+
+
+// *************************************************************
+// XXX below is new as of June 6, 2012, encodes Exp, ArithOP, Agg
+
+
+enum ArithmeticOp 
+{  Add = 0;         // (+)
+   Multiply = 1;    // (*)
+   Subtract = 2;    // (-)
+   Divide = 3;      // (/)
+   Mod = 4;         // mod
+}
+
+
+enum Numeric 
+{  NInt = 0; 
+   NUInt = 1; 
+   NFloat = 2; 
+   NDecimal = 3;
+}
+
+enum Fixed
+{  FString = 0; 
+   FBool = 1; 
+   FDatetime = 2; 
+   FColor = 3;
+}
+
+message NumType 
+{ required Numeric typ = 1; 
+  required int32 size = 2;
+}
+
+
+enum UnivTag 
+{ Ntag = 0; 
+  Ftag = 1;
+}
+
+message Univ
+{  required UnivTag tag = 1;  // Tagged sum, only one of the optional fields should exist 
+	                      // in each node, and it should correspond to the value of the tag	
+   optional NumType  n  = 2;
+   optional Fixed f     = 3;
+}
+
+
+
+// ----------------------------------------------------------------
+// Exp
+
+enum ExpTag 
+  { CONSTEXP = 0;
+    INDEX = 1;
+    NAME = 2;
+    ARITHEXP = 3;
+    CONVERT = 4;
+    MIXED = 5;
+    CALL = 6;
+  }
+  
+message ConstExp 
+{ required blox.common.protocol.Constant literal = 1;
+}  
+
+message Name
+  { required string ename = 1;
+    required blox.common.protocol.Type etype =2;
+  }
+
+message Index 
+{ required int32 offset =1;
+  required blox.common.protocol.Type etyp =2;
+}
+ 
+message ArithExp
+{ required NumType domain =1;
+  required ArithmeticOp op =2;
+  required Exp exp1 =3;
+  required Exp exp2 =4;
+}   
+
+
+message Convert  
+{ required Univ convDom = 1;
+  required Univ convRng = 2;
+  required Exp exp2 = 3;
+}               
+
+message Mixed   
+{ required NumType domain = 1;
+  required NumType range =2;
+  required Exp exp1 =3;
+}               
+
+message Call 
+{ required Fixed calltype = 1;
+  required string callname = 2;
+  repeated Exp args =3;
+} 
+
+
+// A union of all node types
+message Exp
+{ required ExpTag tag = 1;  // Tagged sum, only one of the optional fields should exist 
+                            // in each node, and it should correspond to the value of the tag
+  optional ConstExp constExp = 2;
+  optional Index    index    = 3;
+  optional Name     name     = 4;
+  optional ArithExp  arithexp  = 5;
+  optional Convert  convert  = 6;
+  optional Mixed    mixed    = 7;
+  optional Call     call     = 8;
+}
+
+// ----------------------------------------------------------------
+// Compare
+    
+enum CompareTag 
+  { COMP = 0;
+    TEST = 1;
+    AND = 2;
+    ALWAYS = 3;
+  }    
+  
+message Comp 
+{ required Comparison comparison = 1;
+  required Exp op1 = 2;
+  required Exp op2 =3;
+} 
+
+message Test    
+{ required Fixed testtype = 1;
+  required string testname = 2;
+  repeated Exp ops = 3;
+}
+
+message And
+{ required Compare and1 = 1;
+  required Compare and2 = 2;
+}
+
+
+// A union of all node types
+message Compare
+{ required CompareTag tag = 1;  // Tagged sum, only one of the optional fields should exist 
+                                // in each node, and it should correspond to the value of the tag
+  optional Comp comp = 2;
+  optional Test test = 3;
+  optional And andComp = 4;
+}
+
+// ********************** Agg ****************************
+
+enum AggTag 
+  { COUNT = 0;
+    TOTAL = 1;
+    MIN = 2;
+    MAX = 3;
+  }    
+  
+message Count
+{ required int32  aggrng =1;
+}  
+
+message Total
+{ required int32 aggdom =1 ;
+  required int32  aggrng =2;
+}  
+
+message Min
+{ required int32 aggdom =1;
+  required int32  aggrng =2;
+}  
+
+message Max
+{ required int32 aggdom =1;
+  required int32  aggrng =2;
+}  
+
+// A union of all node types
+message Agg
+{ required AggTag tag = 1;  // Tagged sum, only one of the optional fields should exist                                 
+  optional Count count = 2;
+  optional Total total = 3;
+  optional Min min = 4;
+  optional Max max = 5;  
+}
